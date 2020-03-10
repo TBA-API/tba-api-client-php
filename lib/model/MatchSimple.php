@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace TBA-API\v3client\TBA-API\v3client\model;
+namespace TBAAPI\v3client\TBAAPI\v3client\model;
 
 use \ArrayAccess;
-use \TBA-API\v3client\ObjectSerializer;
+use \TBAAPI\v3client\ObjectSerializer;
 
 /**
  * MatchSimple Class Doc Comment
  *
  * @category Class
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -61,7 +61,7 @@ class MatchSimple implements ModelInterface, ArrayAccess
         'comp_level' => 'string',
         'set_number' => 'int',
         'match_number' => 'int',
-        'alliances' => '\TBA-API\v3client\TBA-API\v3client\model\MatchSimpleAlliances',
+        'alliances' => '\TBAAPI\v3client\TBAAPI\v3client\model\MatchSimpleAlliances',
         'winning_alliance' => 'string',
         'event_key' => 'string',
         'time' => 'int',
@@ -435,7 +435,7 @@ class MatchSimple implements ModelInterface, ArrayAccess
     /**
      * Gets alliances
      *
-     * @return \TBA-API\v3client\TBA-API\v3client\model\MatchSimpleAlliances|null
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\MatchSimpleAlliances|null
      */
     public function getAlliances()
     {
@@ -445,7 +445,7 @@ class MatchSimple implements ModelInterface, ArrayAccess
     /**
      * Sets alliances
      *
-     * @param \TBA-API\v3client\TBA-API\v3client\model\MatchSimpleAlliances|null $alliances alliances
+     * @param \TBAAPI\v3client\TBAAPI\v3client\model\MatchSimpleAlliances|null $alliances alliances
      *
      * @return $this
      */

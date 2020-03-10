@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace TBA-API\v3client\TBA-API\v3client\model;
+namespace TBAAPI\v3client\TBAAPI\v3client\model;
 
 use \ArrayAccess;
-use \TBA-API\v3client\ObjectSerializer;
+use \TBAAPI\v3client\ObjectSerializer;
 
 /**
  * Media Class Doc Comment
  *
  * @category Class
  * @description The &#x60;Media&#x60; object contains a reference for most any media associated with a team or event on TBA.
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */

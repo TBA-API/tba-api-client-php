@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 **comp_level** | **string** | The competition level the match was played at. | 
 **set_number** | **int** | The set number in a series of matches where more than one match is required in the match series. | 
 **match_number** | **int** | The match number of the match in the competition level. | 
-**alliances** | [**\TBA-API\v3client\TBA-API\v3client\model\MatchSimpleAlliances**](MatchSimpleAlliances.md) |  | [optional] 
+**alliances** | [**\TBAAPI\v3client\TBAAPI\v3client\model\MatchSimpleAlliances**](MatchSimpleAlliances.md) |  | [optional] 
 **winning_alliance** | **string** | The color (red/blue) of the winning alliance. Will contain an empty string in the event of no winner, or a tie. | [optional] 
 **event_key** | **string** | Event key of the event the match was played at. | 
 **time** | **int** | UNIX timestamp (seconds since 1-Jan-1970 00:00:00) of the scheduled match time, as taken from the published schedule. | [optional] 

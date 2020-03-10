@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace TBA-API\v3client\TBA-API\v3client\model;
+namespace TBAAPI\v3client\TBAAPI\v3client\model;
 
 use \ArrayAccess;
-use \TBA-API\v3client\ObjectSerializer;
+use \TBAAPI\v3client\ObjectSerializer;
 
 /**
  * EventSimple Class Doc Comment
  *
  * @category Class
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -61,7 +61,7 @@ class EventSimple implements ModelInterface, ArrayAccess
         'name' => 'string',
         'event_code' => 'string',
         'event_type' => 'int',
-        'district' => '\TBA-API\v3client\TBA-API\v3client\model\DistrictList',
+        'district' => '\TBAAPI\v3client\TBAAPI\v3client\model\DistrictList',
         'city' => 'string',
         'state_prov' => 'string',
         'country' => 'string',
@@ -384,7 +384,7 @@ class EventSimple implements ModelInterface, ArrayAccess
     /**
      * Gets district
      *
-     * @return \TBA-API\v3client\TBA-API\v3client\model\DistrictList|null
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\DistrictList|null
      */
     public function getDistrict()
     {
@@ -394,7 +394,7 @@ class EventSimple implements ModelInterface, ArrayAccess
     /**
      * Sets district
      *
-     * @param \TBA-API\v3client\TBA-API\v3client\model\DistrictList|null $district district
+     * @param \TBAAPI\v3client\TBAAPI\v3client\model\DistrictList|null $district district
      *
      * @return $this
      */

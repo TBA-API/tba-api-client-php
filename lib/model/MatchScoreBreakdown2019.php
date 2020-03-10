@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace TBA-API\v3client\TBA-API\v3client\model;
+namespace TBAAPI\v3client\TBAAPI\v3client\model;
 
 use \ArrayAccess;
-use \TBA-API\v3client\ObjectSerializer;
+use \TBAAPI\v3client\ObjectSerializer;
 
 /**
  * MatchScoreBreakdown2019 Class Doc Comment
  *
  * @category Class
  * @description See the 2019 FMS API documentation for a description of each value. https://frcevents2.docs.apiary.io/#/reference/match-results/score-details
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -58,8 +58,8 @@ class MatchScoreBreakdown2019 implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $openAPITypes = [
-        'blue' => '\TBA-API\v3client\TBA-API\v3client\model\MatchScoreBreakdown2019Alliance',
-        'red' => '\TBA-API\v3client\TBA-API\v3client\model\MatchScoreBreakdown2019Alliance'
+        'blue' => '\TBAAPI\v3client\TBAAPI\v3client\model\MatchScoreBreakdown2019Alliance',
+        'red' => '\TBAAPI\v3client\TBAAPI\v3client\model\MatchScoreBreakdown2019Alliance'
     ];
 
     /**
@@ -214,7 +214,7 @@ class MatchScoreBreakdown2019 implements ModelInterface, ArrayAccess
     /**
      * Gets blue
      *
-     * @return \TBA-API\v3client\TBA-API\v3client\model\MatchScoreBreakdown2019Alliance|null
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\MatchScoreBreakdown2019Alliance|null
      */
     public function getBlue()
     {
@@ -224,7 +224,7 @@ class MatchScoreBreakdown2019 implements ModelInterface, ArrayAccess
     /**
      * Sets blue
      *
-     * @param \TBA-API\v3client\TBA-API\v3client\model\MatchScoreBreakdown2019Alliance|null $blue blue
+     * @param \TBAAPI\v3client\TBAAPI\v3client\model\MatchScoreBreakdown2019Alliance|null $blue blue
      *
      * @return $this
      */
@@ -238,7 +238,7 @@ class MatchScoreBreakdown2019 implements ModelInterface, ArrayAccess
     /**
      * Gets red
      *
-     * @return \TBA-API\v3client\TBA-API\v3client\model\MatchScoreBreakdown2019Alliance|null
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\MatchScoreBreakdown2019Alliance|null
      */
     public function getRed()
     {
@@ -248,7 +248,7 @@ class MatchScoreBreakdown2019 implements ModelInterface, ArrayAccess
     /**
      * Sets red
      *
-     * @param \TBA-API\v3client\TBA-API\v3client\model\MatchScoreBreakdown2019Alliance|null $red red
+     * @param \TBAAPI\v3client\TBAAPI\v3client\model\MatchScoreBreakdown2019Alliance|null $red red
      *
      * @return $this
      */

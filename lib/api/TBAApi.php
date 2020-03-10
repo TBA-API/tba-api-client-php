@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace TBA-API\v3client\TBA-API\v3client\api;
+namespace TBAAPI\v3client\TBAAPI\v3client\api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use TBA-API\v3client\ApiException;
-use TBA-API\v3client\Configuration;
-use TBA-API\v3client\HeaderSelector;
-use TBA-API\v3client\ObjectSerializer;
+use TBAAPI\v3client\ApiException;
+use TBAAPI\v3client\Configuration;
+use TBAAPI\v3client\HeaderSelector;
+use TBAAPI\v3client\ObjectSerializer;
 
 /**
  * TBAApi Class Doc Comment
  *
  * @category Class
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -120,9 +120,9 @@ class TBAApi
      *
      * @param  string $if_modified_since Value of the &#x60;Last-Modified&#x60; header in the most recently cached response by the client. (optional)
      *
-     * @throws \TBA-API\v3client\ApiException on non-2xx response
+     * @throws \TBAAPI\v3client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \TBA-API\v3client\TBA-API\v3client\model\APIStatus
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\APIStatus
      */
     public function getStatus($if_modified_since = null)
     {
@@ -135,9 +135,9 @@ class TBAApi
      *
      * @param  string $if_modified_since Value of the &#x60;Last-Modified&#x60; header in the most recently cached response by the client. (optional)
      *
-     * @throws \TBA-API\v3client\ApiException on non-2xx response
+     * @throws \TBAAPI\v3client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \TBA-API\v3client\TBA-API\v3client\model\APIStatus, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \TBAAPI\v3client\TBAAPI\v3client\model\APIStatus, HTTP status code, HTTP response headers (array of strings)
      */
     public function getStatusWithHttpInfo($if_modified_since = null)
     {
@@ -174,20 +174,20 @@ class TBAApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\TBA-API\v3client\TBA-API\v3client\model\APIStatus' === '\SplFileObject') {
+                    if ('\TBAAPI\v3client\TBAAPI\v3client\model\APIStatus' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\TBA-API\v3client\TBA-API\v3client\model\APIStatus', []),
+                        ObjectSerializer::deserialize($content, '\TBAAPI\v3client\TBAAPI\v3client\model\APIStatus', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\TBA-API\v3client\TBA-API\v3client\model\APIStatus';
+            $returnType = '\TBAAPI\v3client\TBAAPI\v3client\model\APIStatus';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -206,7 +206,7 @@ class TBAApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\TBA-API\v3client\TBA-API\v3client\model\APIStatus',
+                        '\TBAAPI\v3client\TBAAPI\v3client\model\APIStatus',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -248,7 +248,7 @@ class TBAApi
      */
     public function getStatusAsyncWithHttpInfo($if_modified_since = null)
     {
-        $returnType = '\TBA-API\v3client\TBA-API\v3client\model\APIStatus';
+        $returnType = '\TBAAPI\v3client\TBAAPI\v3client\model\APIStatus';
         $request = $this->getStatusRequest($if_modified_since);
 
         return $this->client

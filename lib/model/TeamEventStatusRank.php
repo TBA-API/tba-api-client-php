@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace TBA-API\v3client\TBA-API\v3client\model;
+namespace TBAAPI\v3client\TBAAPI\v3client\model;
 
 use \ArrayAccess;
-use \TBA-API\v3client\ObjectSerializer;
+use \TBAAPI\v3client\ObjectSerializer;
 
 /**
  * TeamEventStatusRank Class Doc Comment
  *
  * @category Class
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -58,8 +58,8 @@ class TeamEventStatusRank implements ModelInterface, ArrayAccess
       */
     protected static $openAPITypes = [
         'num_teams' => 'int',
-        'ranking' => '\TBA-API\v3client\TBA-API\v3client\model\TeamEventStatusRankRanking',
-        'sort_order_info' => '\TBA-API\v3client\TBA-API\v3client\model\TeamEventStatusRankSortOrderInfo[]',
+        'ranking' => '\TBAAPI\v3client\TBAAPI\v3client\model\TeamEventStatusRankRanking',
+        'sort_order_info' => '\TBAAPI\v3client\TBAAPI\v3client\model\TeamEventStatusRankSortOrderInfo[]',
         'status' => 'string'
     ];
 
@@ -249,7 +249,7 @@ class TeamEventStatusRank implements ModelInterface, ArrayAccess
     /**
      * Gets ranking
      *
-     * @return \TBA-API\v3client\TBA-API\v3client\model\TeamEventStatusRankRanking|null
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\TeamEventStatusRankRanking|null
      */
     public function getRanking()
     {
@@ -259,7 +259,7 @@ class TeamEventStatusRank implements ModelInterface, ArrayAccess
     /**
      * Sets ranking
      *
-     * @param \TBA-API\v3client\TBA-API\v3client\model\TeamEventStatusRankRanking|null $ranking ranking
+     * @param \TBAAPI\v3client\TBAAPI\v3client\model\TeamEventStatusRankRanking|null $ranking ranking
      *
      * @return $this
      */
@@ -273,7 +273,7 @@ class TeamEventStatusRank implements ModelInterface, ArrayAccess
     /**
      * Gets sort_order_info
      *
-     * @return \TBA-API\v3client\TBA-API\v3client\model\TeamEventStatusRankSortOrderInfo[]|null
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\TeamEventStatusRankSortOrderInfo[]|null
      */
     public function getSortOrderInfo()
     {
@@ -283,7 +283,7 @@ class TeamEventStatusRank implements ModelInterface, ArrayAccess
     /**
      * Sets sort_order_info
      *
-     * @param \TBA-API\v3client\TBA-API\v3client\model\TeamEventStatusRankSortOrderInfo[]|null $sort_order_info Ordered list of names corresponding to the elements of the `sort_orders` array.
+     * @param \TBAAPI\v3client\TBAAPI\v3client\model\TeamEventStatusRankSortOrderInfo[]|null $sort_order_info Ordered list of names corresponding to the elements of the `sort_orders` array.
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace TBA-API\v3client\TBA-API\v3client\model;
+namespace TBAAPI\v3client\TBAAPI\v3client\model;
 
 use \ArrayAccess;
-use \TBA-API\v3client\ObjectSerializer;
+use \TBAAPI\v3client\ObjectSerializer;
 
 /**
  * EliminationAllianceStatus Class Doc Comment
  *
  * @category Class
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -59,8 +59,8 @@ class EliminationAllianceStatus implements ModelInterface, ArrayAccess
     protected static $openAPITypes = [
         'playoff_average' => 'double',
         'level' => 'string',
-        'record' => '\TBA-API\v3client\TBA-API\v3client\model\WLTRecord',
-        'current_level_record' => '\TBA-API\v3client\TBA-API\v3client\model\WLTRecord',
+        'record' => '\TBAAPI\v3client\TBAAPI\v3client\model\WLTRecord',
+        'current_level_record' => '\TBAAPI\v3client\TBAAPI\v3client\model\WLTRecord',
         'status' => 'string'
     ];
 
@@ -279,7 +279,7 @@ class EliminationAllianceStatus implements ModelInterface, ArrayAccess
     /**
      * Gets record
      *
-     * @return \TBA-API\v3client\TBA-API\v3client\model\WLTRecord|null
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\WLTRecord|null
      */
     public function getRecord()
     {
@@ -289,7 +289,7 @@ class EliminationAllianceStatus implements ModelInterface, ArrayAccess
     /**
      * Sets record
      *
-     * @param \TBA-API\v3client\TBA-API\v3client\model\WLTRecord|null $record record
+     * @param \TBAAPI\v3client\TBAAPI\v3client\model\WLTRecord|null $record record
      *
      * @return $this
      */
@@ -303,7 +303,7 @@ class EliminationAllianceStatus implements ModelInterface, ArrayAccess
     /**
      * Gets current_level_record
      *
-     * @return \TBA-API\v3client\TBA-API\v3client\model\WLTRecord|null
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\WLTRecord|null
      */
     public function getCurrentLevelRecord()
     {
@@ -313,7 +313,7 @@ class EliminationAllianceStatus implements ModelInterface, ArrayAccess
     /**
      * Sets current_level_record
      *
-     * @param \TBA-API\v3client\TBA-API\v3client\model\WLTRecord|null $current_level_record current_level_record
+     * @param \TBAAPI\v3client\TBAAPI\v3client\model\WLTRecord|null $current_level_record current_level_record
      *
      * @return $this
      */

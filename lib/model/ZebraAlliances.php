@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace TBA-API\v3client\TBA-API\v3client\model;
+namespace TBAAPI\v3client\TBAAPI\v3client\model;
 
 use \ArrayAccess;
-use \TBA-API\v3client\ObjectSerializer;
+use \TBAAPI\v3client\ObjectSerializer;
 
 /**
  * ZebraAlliances Class Doc Comment
  *
  * @category Class
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -57,8 +57,8 @@ class ZebraAlliances implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $openAPITypes = [
-        'red' => '\TBA-API\v3client\TBA-API\v3client\model\ZebraTeam[]',
-        'blue' => '\TBA-API\v3client\TBA-API\v3client\model\ZebraTeam[]'
+        'red' => '\TBAAPI\v3client\TBAAPI\v3client\model\ZebraTeam[]',
+        'blue' => '\TBAAPI\v3client\TBAAPI\v3client\model\ZebraTeam[]'
     ];
 
     /**
@@ -213,7 +213,7 @@ class ZebraAlliances implements ModelInterface, ArrayAccess
     /**
      * Gets red
      *
-     * @return \TBA-API\v3client\TBA-API\v3client\model\ZebraTeam[]|null
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\ZebraTeam[]|null
      */
     public function getRed()
     {
@@ -223,7 +223,7 @@ class ZebraAlliances implements ModelInterface, ArrayAccess
     /**
      * Sets red
      *
-     * @param \TBA-API\v3client\TBA-API\v3client\model\ZebraTeam[]|null $red Zebra MotionWorks data for teams on the red alliance
+     * @param \TBAAPI\v3client\TBAAPI\v3client\model\ZebraTeam[]|null $red Zebra MotionWorks data for teams on the red alliance
      *
      * @return $this
      */
@@ -237,7 +237,7 @@ class ZebraAlliances implements ModelInterface, ArrayAccess
     /**
      * Gets blue
      *
-     * @return \TBA-API\v3client\TBA-API\v3client\model\ZebraTeam[]|null
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\ZebraTeam[]|null
      */
     public function getBlue()
     {
@@ -247,7 +247,7 @@ class ZebraAlliances implements ModelInterface, ArrayAccess
     /**
      * Sets blue
      *
-     * @param \TBA-API\v3client\TBA-API\v3client\model\ZebraTeam[]|null $blue Zebra data for teams on the blue alliance
+     * @param \TBAAPI\v3client\TBAAPI\v3client\model\ZebraTeam[]|null $blue Zebra data for teams on the blue alliance
      *
      * @return $this
      */

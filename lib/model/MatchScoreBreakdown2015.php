@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace TBA-API\v3client\TBA-API\v3client\model;
+namespace TBAAPI\v3client\TBAAPI\v3client\model;
 
 use \ArrayAccess;
-use \TBA-API\v3client\ObjectSerializer;
+use \TBAAPI\v3client\ObjectSerializer;
 
 /**
  * MatchScoreBreakdown2015 Class Doc Comment
  *
  * @category Class
  * @description See the 2015 FMS API documentation for a description of each value
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -58,8 +58,8 @@ class MatchScoreBreakdown2015 implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $openAPITypes = [
-        'blue' => '\TBA-API\v3client\TBA-API\v3client\model\MatchScoreBreakdown2015Alliance',
-        'red' => '\TBA-API\v3client\TBA-API\v3client\model\MatchScoreBreakdown2015Alliance',
+        'blue' => '\TBAAPI\v3client\TBAAPI\v3client\model\MatchScoreBreakdown2015Alliance',
+        'red' => '\TBAAPI\v3client\TBAAPI\v3client\model\MatchScoreBreakdown2015Alliance',
         'coopertition' => 'string',
         'coopertition_points' => 'int'
     ];
@@ -251,7 +251,7 @@ class MatchScoreBreakdown2015 implements ModelInterface, ArrayAccess
     /**
      * Gets blue
      *
-     * @return \TBA-API\v3client\TBA-API\v3client\model\MatchScoreBreakdown2015Alliance|null
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\MatchScoreBreakdown2015Alliance|null
      */
     public function getBlue()
     {
@@ -261,7 +261,7 @@ class MatchScoreBreakdown2015 implements ModelInterface, ArrayAccess
     /**
      * Sets blue
      *
-     * @param \TBA-API\v3client\TBA-API\v3client\model\MatchScoreBreakdown2015Alliance|null $blue blue
+     * @param \TBAAPI\v3client\TBAAPI\v3client\model\MatchScoreBreakdown2015Alliance|null $blue blue
      *
      * @return $this
      */
@@ -275,7 +275,7 @@ class MatchScoreBreakdown2015 implements ModelInterface, ArrayAccess
     /**
      * Gets red
      *
-     * @return \TBA-API\v3client\TBA-API\v3client\model\MatchScoreBreakdown2015Alliance|null
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\MatchScoreBreakdown2015Alliance|null
      */
     public function getRed()
     {
@@ -285,7 +285,7 @@ class MatchScoreBreakdown2015 implements ModelInterface, ArrayAccess
     /**
      * Sets red
      *
-     * @param \TBA-API\v3client\TBA-API\v3client\model\MatchScoreBreakdown2015Alliance|null $red red
+     * @param \TBAAPI\v3client\TBAAPI\v3client\model\MatchScoreBreakdown2015Alliance|null $red red
      *
      * @return $this
      */

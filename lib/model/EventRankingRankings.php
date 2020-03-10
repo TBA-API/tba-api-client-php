@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace TBA-API\v3client\TBA-API\v3client\model;
+namespace TBAAPI\v3client\TBAAPI\v3client\model;
 
 use \ArrayAccess;
-use \TBA-API\v3client\ObjectSerializer;
+use \TBAAPI\v3client\ObjectSerializer;
 
 /**
  * EventRankingRankings Class Doc Comment
  *
  * @category Class
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -61,7 +61,7 @@ class EventRankingRankings implements ModelInterface, ArrayAccess
         'qual_average' => 'int',
         'extra_stats' => 'float[]',
         'sort_orders' => 'float[]',
-        'record' => '\TBA-API\v3client\TBA-API\v3client\model\WLTRecord',
+        'record' => '\TBAAPI\v3client\TBAAPI\v3client\model\WLTRecord',
         'rank' => 'int',
         'dq' => 'int',
         'team_key' => 'string'
@@ -360,7 +360,7 @@ class EventRankingRankings implements ModelInterface, ArrayAccess
     /**
      * Gets record
      *
-     * @return \TBA-API\v3client\TBA-API\v3client\model\WLTRecord
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\WLTRecord
      */
     public function getRecord()
     {
@@ -370,7 +370,7 @@ class EventRankingRankings implements ModelInterface, ArrayAccess
     /**
      * Sets record
      *
-     * @param \TBA-API\v3client\TBA-API\v3client\model\WLTRecord $record record
+     * @param \TBAAPI\v3client\TBAAPI\v3client\model\WLTRecord $record record
      *
      * @return $this
      */

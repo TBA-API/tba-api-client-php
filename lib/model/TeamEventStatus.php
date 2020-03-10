@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace TBA-API\v3client\TBA-API\v3client\model;
+namespace TBAAPI\v3client\TBAAPI\v3client\model;
 
 use \ArrayAccess;
-use \TBA-API\v3client\ObjectSerializer;
+use \TBAAPI\v3client\ObjectSerializer;
 
 /**
  * TeamEventStatus Class Doc Comment
  *
  * @category Class
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -57,9 +57,9 @@ class TeamEventStatus implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $openAPITypes = [
-        'qual' => '\TBA-API\v3client\TBA-API\v3client\model\TeamEventStatusRank',
-        'alliance' => '\TBA-API\v3client\TBA-API\v3client\model\TeamEventStatusAlliance',
-        'playoff' => '\TBA-API\v3client\TBA-API\v3client\model\TeamEventStatusPlayoff',
+        'qual' => '\TBAAPI\v3client\TBAAPI\v3client\model\TeamEventStatusRank',
+        'alliance' => '\TBAAPI\v3client\TBAAPI\v3client\model\TeamEventStatusAlliance',
+        'playoff' => '\TBAAPI\v3client\TBAAPI\v3client\model\TeamEventStatusPlayoff',
         'alliance_status_str' => 'string',
         'playoff_status_str' => 'string',
         'overall_status_str' => 'string',
@@ -249,7 +249,7 @@ class TeamEventStatus implements ModelInterface, ArrayAccess
     /**
      * Gets qual
      *
-     * @return \TBA-API\v3client\TBA-API\v3client\model\TeamEventStatusRank|null
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\TeamEventStatusRank|null
      */
     public function getQual()
     {
@@ -259,7 +259,7 @@ class TeamEventStatus implements ModelInterface, ArrayAccess
     /**
      * Sets qual
      *
-     * @param \TBA-API\v3client\TBA-API\v3client\model\TeamEventStatusRank|null $qual qual
+     * @param \TBAAPI\v3client\TBAAPI\v3client\model\TeamEventStatusRank|null $qual qual
      *
      * @return $this
      */
@@ -273,7 +273,7 @@ class TeamEventStatus implements ModelInterface, ArrayAccess
     /**
      * Gets alliance
      *
-     * @return \TBA-API\v3client\TBA-API\v3client\model\TeamEventStatusAlliance|null
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\TeamEventStatusAlliance|null
      */
     public function getAlliance()
     {
@@ -283,7 +283,7 @@ class TeamEventStatus implements ModelInterface, ArrayAccess
     /**
      * Sets alliance
      *
-     * @param \TBA-API\v3client\TBA-API\v3client\model\TeamEventStatusAlliance|null $alliance alliance
+     * @param \TBAAPI\v3client\TBAAPI\v3client\model\TeamEventStatusAlliance|null $alliance alliance
      *
      * @return $this
      */
@@ -297,7 +297,7 @@ class TeamEventStatus implements ModelInterface, ArrayAccess
     /**
      * Gets playoff
      *
-     * @return \TBA-API\v3client\TBA-API\v3client\model\TeamEventStatusPlayoff|null
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\TeamEventStatusPlayoff|null
      */
     public function getPlayoff()
     {
@@ -307,7 +307,7 @@ class TeamEventStatus implements ModelInterface, ArrayAccess
     /**
      * Sets playoff
      *
-     * @param \TBA-API\v3client\TBA-API\v3client\model\TeamEventStatusPlayoff|null $playoff playoff
+     * @param \TBAAPI\v3client\TBAAPI\v3client\model\TeamEventStatusPlayoff|null $playoff playoff
      *
      * @return $this
      */

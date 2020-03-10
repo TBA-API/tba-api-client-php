@@ -1,4 +1,4 @@
-# TBA-API\v3client\EventApi
+# TBAAPI\v3client\EventApi
 
 All URIs are relative to *https://www.thebluealliance.com/api/v3*
 
@@ -44,7 +44,7 @@ Method | HTTP request | Description
 
 ## getDistrictEvents
 
-> \TBA-API\v3client\TBA-API\v3client\model\Event[] getDistrictEvents($district_key, $if_modified_since)
+> \TBAAPI\v3client\TBAAPI\v3client\model\Event[] getDistrictEvents($district_key, $if_modified_since)
 
 
 
@@ -58,12 +58,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: apiKey
-$config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
+$config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
+// $config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
 
 
-$apiInstance = new TBA-API\v3client\Api\EventApi(
+$apiInstance = new TBAAPI\v3client\Api\EventApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -91,7 +91,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\TBA-API\v3client\TBA-API\v3client\model\Event[]**](../Model/Event.md)
+[**\TBAAPI\v3client\TBAAPI\v3client\model\Event[]**](../Model/Event.md)
 
 ### Authorization
 
@@ -123,12 +123,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: apiKey
-$config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
+$config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
+// $config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
 
 
-$apiInstance = new TBA-API\v3client\Api\EventApi(
+$apiInstance = new TBAAPI\v3client\Api\EventApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -174,7 +174,7 @@ Name | Type | Description  | Notes
 
 ## getDistrictEventsSimple
 
-> \TBA-API\v3client\TBA-API\v3client\model\EventSimple[] getDistrictEventsSimple($district_key, $if_modified_since)
+> \TBAAPI\v3client\TBAAPI\v3client\model\EventSimple[] getDistrictEventsSimple($district_key, $if_modified_since)
 
 
 
@@ -188,12 +188,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: apiKey
-$config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
+$config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
+// $config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
 
 
-$apiInstance = new TBA-API\v3client\Api\EventApi(
+$apiInstance = new TBAAPI\v3client\Api\EventApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -221,7 +221,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\TBA-API\v3client\TBA-API\v3client\model\EventSimple[]**](../Model/EventSimple.md)
+[**\TBAAPI\v3client\TBAAPI\v3client\model\EventSimple[]**](../Model/EventSimple.md)
 
 ### Authorization
 
@@ -239,7 +239,7 @@ Name | Type | Description  | Notes
 
 ## getEvent
 
-> \TBA-API\v3client\TBA-API\v3client\model\Event getEvent($event_key, $if_modified_since)
+> \TBAAPI\v3client\TBAAPI\v3client\model\Event getEvent($event_key, $if_modified_since)
 
 
 
@@ -253,12 +253,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: apiKey
-$config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
+$config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
+// $config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
 
 
-$apiInstance = new TBA-API\v3client\Api\EventApi(
+$apiInstance = new TBAAPI\v3client\Api\EventApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -286,7 +286,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\TBA-API\v3client\TBA-API\v3client\model\Event**](../Model/Event.md)
+[**\TBAAPI\v3client\TBAAPI\v3client\model\Event**](../Model/Event.md)
 
 ### Authorization
 
@@ -304,7 +304,7 @@ Name | Type | Description  | Notes
 
 ## getEventAlliances
 
-> \TBA-API\v3client\TBA-API\v3client\model\EliminationAlliance[] getEventAlliances($event_key, $if_modified_since)
+> \TBAAPI\v3client\TBAAPI\v3client\model\EliminationAlliance[] getEventAlliances($event_key, $if_modified_since)
 
 
 
@@ -318,12 +318,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: apiKey
-$config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
+$config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
+// $config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
 
 
-$apiInstance = new TBA-API\v3client\Api\EventApi(
+$apiInstance = new TBAAPI\v3client\Api\EventApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -351,7 +351,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\TBA-API\v3client\TBA-API\v3client\model\EliminationAlliance[]**](../Model/EliminationAlliance.md)
+[**\TBAAPI\v3client\TBAAPI\v3client\model\EliminationAlliance[]**](../Model/EliminationAlliance.md)
 
 ### Authorization
 
@@ -369,7 +369,7 @@ Name | Type | Description  | Notes
 
 ## getEventAwards
 
-> \TBA-API\v3client\TBA-API\v3client\model\Award[] getEventAwards($event_key, $if_modified_since)
+> \TBAAPI\v3client\TBAAPI\v3client\model\Award[] getEventAwards($event_key, $if_modified_since)
 
 
 
@@ -383,12 +383,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: apiKey
-$config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
+$config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
+// $config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
 
 
-$apiInstance = new TBA-API\v3client\Api\EventApi(
+$apiInstance = new TBAAPI\v3client\Api\EventApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -416,7 +416,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\TBA-API\v3client\TBA-API\v3client\model\Award[]**](../Model/Award.md)
+[**\TBAAPI\v3client\TBAAPI\v3client\model\Award[]**](../Model/Award.md)
 
 ### Authorization
 
@@ -434,7 +434,7 @@ Name | Type | Description  | Notes
 
 ## getEventDistrictPoints
 
-> \TBA-API\v3client\TBA-API\v3client\model\EventDistrictPoints getEventDistrictPoints($event_key, $if_modified_since)
+> \TBAAPI\v3client\TBAAPI\v3client\model\EventDistrictPoints getEventDistrictPoints($event_key, $if_modified_since)
 
 
 
@@ -448,12 +448,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: apiKey
-$config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
+$config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
+// $config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
 
 
-$apiInstance = new TBA-API\v3client\Api\EventApi(
+$apiInstance = new TBAAPI\v3client\Api\EventApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -481,7 +481,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\TBA-API\v3client\TBA-API\v3client\model\EventDistrictPoints**](../Model/EventDistrictPoints.md)
+[**\TBAAPI\v3client\TBAAPI\v3client\model\EventDistrictPoints**](../Model/EventDistrictPoints.md)
 
 ### Authorization
 
@@ -499,7 +499,7 @@ Name | Type | Description  | Notes
 
 ## getEventInsights
 
-> \TBA-API\v3client\TBA-API\v3client\model\EventInsights getEventInsights($event_key, $if_modified_since)
+> \TBAAPI\v3client\TBAAPI\v3client\model\EventInsights getEventInsights($event_key, $if_modified_since)
 
 
 
@@ -513,12 +513,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: apiKey
-$config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
+$config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
+// $config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
 
 
-$apiInstance = new TBA-API\v3client\Api\EventApi(
+$apiInstance = new TBAAPI\v3client\Api\EventApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -546,7 +546,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\TBA-API\v3client\TBA-API\v3client\model\EventInsights**](../Model/EventInsights.md)
+[**\TBAAPI\v3client\TBAAPI\v3client\model\EventInsights**](../Model/EventInsights.md)
 
 ### Authorization
 
@@ -578,12 +578,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: apiKey
-$config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
+$config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
+// $config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
 
 
-$apiInstance = new TBA-API\v3client\Api\EventApi(
+$apiInstance = new TBAAPI\v3client\Api\EventApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -629,7 +629,7 @@ Name | Type | Description  | Notes
 
 ## getEventMatches
 
-> \TBA-API\v3client\TBA-API\v3client\model\Match[] getEventMatches($event_key, $if_modified_since)
+> \TBAAPI\v3client\TBAAPI\v3client\model\Match[] getEventMatches($event_key, $if_modified_since)
 
 
 
@@ -643,12 +643,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: apiKey
-$config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
+$config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
+// $config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
 
 
-$apiInstance = new TBA-API\v3client\Api\EventApi(
+$apiInstance = new TBAAPI\v3client\Api\EventApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -676,7 +676,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\TBA-API\v3client\TBA-API\v3client\model\Match[]**](../Model/Match.md)
+[**\TBAAPI\v3client\TBAAPI\v3client\model\Match[]**](../Model/Match.md)
 
 ### Authorization
 
@@ -708,12 +708,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: apiKey
-$config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
+$config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
+// $config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
 
 
-$apiInstance = new TBA-API\v3client\Api\EventApi(
+$apiInstance = new TBAAPI\v3client\Api\EventApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -759,7 +759,7 @@ Name | Type | Description  | Notes
 
 ## getEventMatchesSimple
 
-> \TBA-API\v3client\TBA-API\v3client\model\MatchSimple[] getEventMatchesSimple($event_key, $if_modified_since)
+> \TBAAPI\v3client\TBAAPI\v3client\model\MatchSimple[] getEventMatchesSimple($event_key, $if_modified_since)
 
 
 
@@ -773,12 +773,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: apiKey
-$config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
+$config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
+// $config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
 
 
-$apiInstance = new TBA-API\v3client\Api\EventApi(
+$apiInstance = new TBAAPI\v3client\Api\EventApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -806,7 +806,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\TBA-API\v3client\TBA-API\v3client\model\MatchSimple[]**](../Model/MatchSimple.md)
+[**\TBAAPI\v3client\TBAAPI\v3client\model\MatchSimple[]**](../Model/MatchSimple.md)
 
 ### Authorization
 
@@ -824,7 +824,7 @@ Name | Type | Description  | Notes
 
 ## getEventOPRs
 
-> \TBA-API\v3client\TBA-API\v3client\model\EventOPRs getEventOPRs($event_key, $if_modified_since)
+> \TBAAPI\v3client\TBAAPI\v3client\model\EventOPRs getEventOPRs($event_key, $if_modified_since)
 
 
 
@@ -838,12 +838,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: apiKey
-$config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
+$config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
+// $config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
 
 
-$apiInstance = new TBA-API\v3client\Api\EventApi(
+$apiInstance = new TBAAPI\v3client\Api\EventApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -871,7 +871,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\TBA-API\v3client\TBA-API\v3client\model\EventOPRs**](../Model/EventOPRs.md)
+[**\TBAAPI\v3client\TBAAPI\v3client\model\EventOPRs**](../Model/EventOPRs.md)
 
 ### Authorization
 
@@ -903,12 +903,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: apiKey
-$config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
+$config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
+// $config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
 
 
-$apiInstance = new TBA-API\v3client\Api\EventApi(
+$apiInstance = new TBAAPI\v3client\Api\EventApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -954,7 +954,7 @@ Name | Type | Description  | Notes
 
 ## getEventRankings
 
-> \TBA-API\v3client\TBA-API\v3client\model\EventRanking getEventRankings($event_key, $if_modified_since)
+> \TBAAPI\v3client\TBAAPI\v3client\model\EventRanking getEventRankings($event_key, $if_modified_since)
 
 
 
@@ -968,12 +968,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: apiKey
-$config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
+$config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
+// $config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
 
 
-$apiInstance = new TBA-API\v3client\Api\EventApi(
+$apiInstance = new TBAAPI\v3client\Api\EventApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -1001,7 +1001,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\TBA-API\v3client\TBA-API\v3client\model\EventRanking**](../Model/EventRanking.md)
+[**\TBAAPI\v3client\TBAAPI\v3client\model\EventRanking**](../Model/EventRanking.md)
 
 ### Authorization
 
@@ -1019,7 +1019,7 @@ Name | Type | Description  | Notes
 
 ## getEventSimple
 
-> \TBA-API\v3client\TBA-API\v3client\model\EventSimple getEventSimple($event_key, $if_modified_since)
+> \TBAAPI\v3client\TBAAPI\v3client\model\EventSimple getEventSimple($event_key, $if_modified_since)
 
 
 
@@ -1033,12 +1033,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: apiKey
-$config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
+$config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
+// $config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
 
 
-$apiInstance = new TBA-API\v3client\Api\EventApi(
+$apiInstance = new TBAAPI\v3client\Api\EventApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -1066,7 +1066,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\TBA-API\v3client\TBA-API\v3client\model\EventSimple**](../Model/EventSimple.md)
+[**\TBAAPI\v3client\TBAAPI\v3client\model\EventSimple**](../Model/EventSimple.md)
 
 ### Authorization
 
@@ -1084,7 +1084,7 @@ Name | Type | Description  | Notes
 
 ## getEventTeams
 
-> \TBA-API\v3client\TBA-API\v3client\model\Team[] getEventTeams($event_key, $if_modified_since)
+> \TBAAPI\v3client\TBAAPI\v3client\model\Team[] getEventTeams($event_key, $if_modified_since)
 
 
 
@@ -1098,12 +1098,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: apiKey
-$config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
+$config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
+// $config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
 
 
-$apiInstance = new TBA-API\v3client\Api\EventApi(
+$apiInstance = new TBAAPI\v3client\Api\EventApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -1131,7 +1131,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\TBA-API\v3client\TBA-API\v3client\model\Team[]**](../Model/Team.md)
+[**\TBAAPI\v3client\TBAAPI\v3client\model\Team[]**](../Model/Team.md)
 
 ### Authorization
 
@@ -1163,12 +1163,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: apiKey
-$config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
+$config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
+// $config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
 
 
-$apiInstance = new TBA-API\v3client\Api\EventApi(
+$apiInstance = new TBAAPI\v3client\Api\EventApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -1214,7 +1214,7 @@ Name | Type | Description  | Notes
 
 ## getEventTeamsSimple
 
-> \TBA-API\v3client\TBA-API\v3client\model\TeamSimple[] getEventTeamsSimple($event_key, $if_modified_since)
+> \TBAAPI\v3client\TBAAPI\v3client\model\TeamSimple[] getEventTeamsSimple($event_key, $if_modified_since)
 
 
 
@@ -1228,12 +1228,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: apiKey
-$config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
+$config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
+// $config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
 
 
-$apiInstance = new TBA-API\v3client\Api\EventApi(
+$apiInstance = new TBAAPI\v3client\Api\EventApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -1261,7 +1261,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\TBA-API\v3client\TBA-API\v3client\model\TeamSimple[]**](../Model/TeamSimple.md)
+[**\TBAAPI\v3client\TBAAPI\v3client\model\TeamSimple[]**](../Model/TeamSimple.md)
 
 ### Authorization
 
@@ -1279,7 +1279,7 @@ Name | Type | Description  | Notes
 
 ## getEventTeamsStatuses
 
-> map[string,\TBA-API\v3client\TBA-API\v3client\model\TeamEventStatus] getEventTeamsStatuses($event_key, $if_modified_since)
+> map[string,\TBAAPI\v3client\TBAAPI\v3client\model\TeamEventStatus] getEventTeamsStatuses($event_key, $if_modified_since)
 
 
 
@@ -1293,12 +1293,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: apiKey
-$config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
+$config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
+// $config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
 
 
-$apiInstance = new TBA-API\v3client\Api\EventApi(
+$apiInstance = new TBAAPI\v3client\Api\EventApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -1326,7 +1326,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**map[string,\TBA-API\v3client\TBA-API\v3client\model\TeamEventStatus]**](../Model/TeamEventStatus.md)
+[**map[string,\TBAAPI\v3client\TBAAPI\v3client\model\TeamEventStatus]**](../Model/TeamEventStatus.md)
 
 ### Authorization
 
@@ -1344,7 +1344,7 @@ Name | Type | Description  | Notes
 
 ## getEventsByYear
 
-> \TBA-API\v3client\TBA-API\v3client\model\Event[] getEventsByYear($year, $if_modified_since)
+> \TBAAPI\v3client\TBAAPI\v3client\model\Event[] getEventsByYear($year, $if_modified_since)
 
 
 
@@ -1358,12 +1358,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: apiKey
-$config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
+$config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
+// $config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
 
 
-$apiInstance = new TBA-API\v3client\Api\EventApi(
+$apiInstance = new TBAAPI\v3client\Api\EventApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -1391,7 +1391,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\TBA-API\v3client\TBA-API\v3client\model\Event[]**](../Model/Event.md)
+[**\TBAAPI\v3client\TBAAPI\v3client\model\Event[]**](../Model/Event.md)
 
 ### Authorization
 
@@ -1423,12 +1423,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: apiKey
-$config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
+$config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
+// $config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
 
 
-$apiInstance = new TBA-API\v3client\Api\EventApi(
+$apiInstance = new TBAAPI\v3client\Api\EventApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -1474,7 +1474,7 @@ Name | Type | Description  | Notes
 
 ## getEventsByYearSimple
 
-> \TBA-API\v3client\TBA-API\v3client\model\EventSimple[] getEventsByYearSimple($year, $if_modified_since)
+> \TBAAPI\v3client\TBAAPI\v3client\model\EventSimple[] getEventsByYearSimple($year, $if_modified_since)
 
 
 
@@ -1488,12 +1488,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: apiKey
-$config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
+$config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
+// $config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
 
 
-$apiInstance = new TBA-API\v3client\Api\EventApi(
+$apiInstance = new TBAAPI\v3client\Api\EventApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -1521,7 +1521,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\TBA-API\v3client\TBA-API\v3client\model\EventSimple[]**](../Model/EventSimple.md)
+[**\TBAAPI\v3client\TBAAPI\v3client\model\EventSimple[]**](../Model/EventSimple.md)
 
 ### Authorization
 
@@ -1539,7 +1539,7 @@ Name | Type | Description  | Notes
 
 ## getTeamEventAwards
 
-> \TBA-API\v3client\TBA-API\v3client\model\Award[] getTeamEventAwards($team_key, $event_key, $if_modified_since)
+> \TBAAPI\v3client\TBAAPI\v3client\model\Award[] getTeamEventAwards($team_key, $event_key, $if_modified_since)
 
 
 
@@ -1553,12 +1553,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: apiKey
-$config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
+$config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
+// $config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
 
 
-$apiInstance = new TBA-API\v3client\Api\EventApi(
+$apiInstance = new TBAAPI\v3client\Api\EventApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -1588,7 +1588,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\TBA-API\v3client\TBA-API\v3client\model\Award[]**](../Model/Award.md)
+[**\TBAAPI\v3client\TBAAPI\v3client\model\Award[]**](../Model/Award.md)
 
 ### Authorization
 
@@ -1606,7 +1606,7 @@ Name | Type | Description  | Notes
 
 ## getTeamEventMatches
 
-> \TBA-API\v3client\TBA-API\v3client\model\Match[] getTeamEventMatches($team_key, $event_key, $if_modified_since)
+> \TBAAPI\v3client\TBAAPI\v3client\model\Match[] getTeamEventMatches($team_key, $event_key, $if_modified_since)
 
 
 
@@ -1620,12 +1620,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: apiKey
-$config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
+$config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
+// $config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
 
 
-$apiInstance = new TBA-API\v3client\Api\EventApi(
+$apiInstance = new TBAAPI\v3client\Api\EventApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -1655,7 +1655,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\TBA-API\v3client\TBA-API\v3client\model\Match[]**](../Model/Match.md)
+[**\TBAAPI\v3client\TBAAPI\v3client\model\Match[]**](../Model/Match.md)
 
 ### Authorization
 
@@ -1687,12 +1687,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: apiKey
-$config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
+$config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
+// $config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
 
 
-$apiInstance = new TBA-API\v3client\Api\EventApi(
+$apiInstance = new TBAAPI\v3client\Api\EventApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -1740,7 +1740,7 @@ Name | Type | Description  | Notes
 
 ## getTeamEventMatchesSimple
 
-> \TBA-API\v3client\TBA-API\v3client\model\Match[] getTeamEventMatchesSimple($team_key, $event_key, $if_modified_since)
+> \TBAAPI\v3client\TBAAPI\v3client\model\Match[] getTeamEventMatchesSimple($team_key, $event_key, $if_modified_since)
 
 
 
@@ -1754,12 +1754,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: apiKey
-$config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
+$config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
+// $config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
 
 
-$apiInstance = new TBA-API\v3client\Api\EventApi(
+$apiInstance = new TBAAPI\v3client\Api\EventApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -1789,7 +1789,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\TBA-API\v3client\TBA-API\v3client\model\Match[]**](../Model/Match.md)
+[**\TBAAPI\v3client\TBAAPI\v3client\model\Match[]**](../Model/Match.md)
 
 ### Authorization
 
@@ -1807,7 +1807,7 @@ Name | Type | Description  | Notes
 
 ## getTeamEventStatus
 
-> \TBA-API\v3client\TBA-API\v3client\model\TeamEventStatus getTeamEventStatus($team_key, $event_key, $if_modified_since)
+> \TBAAPI\v3client\TBAAPI\v3client\model\TeamEventStatus getTeamEventStatus($team_key, $event_key, $if_modified_since)
 
 
 
@@ -1821,12 +1821,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: apiKey
-$config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
+$config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
+// $config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
 
 
-$apiInstance = new TBA-API\v3client\Api\EventApi(
+$apiInstance = new TBAAPI\v3client\Api\EventApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -1856,7 +1856,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\TBA-API\v3client\TBA-API\v3client\model\TeamEventStatus**](../Model/TeamEventStatus.md)
+[**\TBAAPI\v3client\TBAAPI\v3client\model\TeamEventStatus**](../Model/TeamEventStatus.md)
 
 ### Authorization
 
@@ -1874,7 +1874,7 @@ Name | Type | Description  | Notes
 
 ## getTeamEvents
 
-> \TBA-API\v3client\TBA-API\v3client\model\Event[] getTeamEvents($team_key, $if_modified_since)
+> \TBAAPI\v3client\TBAAPI\v3client\model\Event[] getTeamEvents($team_key, $if_modified_since)
 
 
 
@@ -1888,12 +1888,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: apiKey
-$config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
+$config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
+// $config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
 
 
-$apiInstance = new TBA-API\v3client\Api\EventApi(
+$apiInstance = new TBAAPI\v3client\Api\EventApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -1921,7 +1921,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\TBA-API\v3client\TBA-API\v3client\model\Event[]**](../Model/Event.md)
+[**\TBAAPI\v3client\TBAAPI\v3client\model\Event[]**](../Model/Event.md)
 
 ### Authorization
 
@@ -1939,7 +1939,7 @@ Name | Type | Description  | Notes
 
 ## getTeamEventsByYear
 
-> \TBA-API\v3client\TBA-API\v3client\model\Event[] getTeamEventsByYear($team_key, $year, $if_modified_since)
+> \TBAAPI\v3client\TBAAPI\v3client\model\Event[] getTeamEventsByYear($team_key, $year, $if_modified_since)
 
 
 
@@ -1953,12 +1953,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: apiKey
-$config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
+$config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
+// $config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
 
 
-$apiInstance = new TBA-API\v3client\Api\EventApi(
+$apiInstance = new TBAAPI\v3client\Api\EventApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -1988,7 +1988,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\TBA-API\v3client\TBA-API\v3client\model\Event[]**](../Model/Event.md)
+[**\TBAAPI\v3client\TBAAPI\v3client\model\Event[]**](../Model/Event.md)
 
 ### Authorization
 
@@ -2020,12 +2020,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: apiKey
-$config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
+$config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
+// $config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
 
 
-$apiInstance = new TBA-API\v3client\Api\EventApi(
+$apiInstance = new TBAAPI\v3client\Api\EventApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -2073,7 +2073,7 @@ Name | Type | Description  | Notes
 
 ## getTeamEventsByYearSimple
 
-> \TBA-API\v3client\TBA-API\v3client\model\EventSimple[] getTeamEventsByYearSimple($team_key, $year, $if_modified_since)
+> \TBAAPI\v3client\TBAAPI\v3client\model\EventSimple[] getTeamEventsByYearSimple($team_key, $year, $if_modified_since)
 
 
 
@@ -2087,12 +2087,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: apiKey
-$config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
+$config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
+// $config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
 
 
-$apiInstance = new TBA-API\v3client\Api\EventApi(
+$apiInstance = new TBAAPI\v3client\Api\EventApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -2122,7 +2122,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\TBA-API\v3client\TBA-API\v3client\model\EventSimple[]**](../Model/EventSimple.md)
+[**\TBAAPI\v3client\TBAAPI\v3client\model\EventSimple[]**](../Model/EventSimple.md)
 
 ### Authorization
 
@@ -2154,12 +2154,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: apiKey
-$config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
+$config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
+// $config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
 
 
-$apiInstance = new TBA-API\v3client\Api\EventApi(
+$apiInstance = new TBAAPI\v3client\Api\EventApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -2205,7 +2205,7 @@ Name | Type | Description  | Notes
 
 ## getTeamEventsSimple
 
-> \TBA-API\v3client\TBA-API\v3client\model\EventSimple[] getTeamEventsSimple($team_key, $if_modified_since)
+> \TBAAPI\v3client\TBAAPI\v3client\model\EventSimple[] getTeamEventsSimple($team_key, $if_modified_since)
 
 
 
@@ -2219,12 +2219,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: apiKey
-$config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
+$config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
+// $config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
 
 
-$apiInstance = new TBA-API\v3client\Api\EventApi(
+$apiInstance = new TBAAPI\v3client\Api\EventApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -2252,7 +2252,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\TBA-API\v3client\TBA-API\v3client\model\EventSimple[]**](../Model/EventSimple.md)
+[**\TBAAPI\v3client\TBAAPI\v3client\model\EventSimple[]**](../Model/EventSimple.md)
 
 ### Authorization
 
@@ -2270,7 +2270,7 @@ Name | Type | Description  | Notes
 
 ## getTeamEventsStatusesByYear
 
-> map[string,\TBA-API\v3client\TBA-API\v3client\model\TeamEventStatus] getTeamEventsStatusesByYear($team_key, $year, $if_modified_since)
+> map[string,\TBAAPI\v3client\TBAAPI\v3client\model\TeamEventStatus] getTeamEventsStatusesByYear($team_key, $year, $if_modified_since)
 
 
 
@@ -2284,12 +2284,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: apiKey
-$config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
+$config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
+// $config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
 
 
-$apiInstance = new TBA-API\v3client\Api\EventApi(
+$apiInstance = new TBAAPI\v3client\Api\EventApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -2319,7 +2319,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**map[string,\TBA-API\v3client\TBA-API\v3client\model\TeamEventStatus]**](../Model/TeamEventStatus.md)
+[**map[string,\TBAAPI\v3client\TBAAPI\v3client\model\TeamEventStatus]**](../Model/TeamEventStatus.md)
 
 ### Authorization
 

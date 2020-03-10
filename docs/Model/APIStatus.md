@@ -8,8 +8,8 @@ Name | Type | Description | Notes
 **max_season** | **int** | Maximum FRC season year for valid queries. | 
 **is_datafeed_down** | **bool** | True if the entire FMS API provided by FIRST is down. | 
 **down_events** | **string[]** | An array of strings containing event keys of any active events that are no longer updating. | 
-**ios** | [**\TBA-API\v3client\TBA-API\v3client\model\APIStatusAppVersion**](APIStatusAppVersion.md) |  | 
-**android** | [**\TBA-API\v3client\TBA-API\v3client\model\APIStatusAppVersion**](APIStatusAppVersion.md) |  | 
+**ios** | [**\TBAAPI\v3client\TBAAPI\v3client\model\APIStatusAppVersion**](APIStatusAppVersion.md) |  | 
+**android** | [**\TBAAPI\v3client\TBAAPI\v3client\model\APIStatusAppVersion**](APIStatusAppVersion.md) |  | 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

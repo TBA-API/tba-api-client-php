@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace TBA-API\v3client\TBA-API\v3client\model;
+namespace TBAAPI\v3client\TBAAPI\v3client\model;
 
 use \ArrayAccess;
-use \TBA-API\v3client\ObjectSerializer;
+use \TBAAPI\v3client\ObjectSerializer;
 
 /**
  * DistrictRanking Class Doc Comment
  *
  * @category Class
  * @description Rank of a team in a district.
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -62,7 +62,7 @@ class DistrictRanking implements ModelInterface, ArrayAccess
         'rank' => 'int',
         'rookie_bonus' => 'int',
         'point_total' => 'int',
-        'event_points' => '\TBA-API\v3client\TBA-API\v3client\model\DistrictRankingEventPoints[]'
+        'event_points' => '\TBAAPI\v3client\TBAAPI\v3client\model\DistrictRankingEventPoints[]'
     ];
 
     /**
@@ -337,7 +337,7 @@ class DistrictRanking implements ModelInterface, ArrayAccess
     /**
      * Gets event_points
      *
-     * @return \TBA-API\v3client\TBA-API\v3client\model\DistrictRankingEventPoints[]|null
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\DistrictRankingEventPoints[]|null
      */
     public function getEventPoints()
     {
@@ -347,7 +347,7 @@ class DistrictRanking implements ModelInterface, ArrayAccess
     /**
      * Sets event_points
      *
-     * @param \TBA-API\v3client\TBA-API\v3client\model\DistrictRankingEventPoints[]|null $event_points List of events that contributed to the point total for the team.
+     * @param \TBAAPI\v3client\TBAAPI\v3client\model\DistrictRankingEventPoints[]|null $event_points List of events that contributed to the point total for the team.
      *
      * @return $this
      */

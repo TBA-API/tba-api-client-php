@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace TBA-API\v3client\TBA-API\v3client\model;
+namespace TBAAPI\v3client\TBAAPI\v3client\model;
 
 use \ArrayAccess;
-use \TBA-API\v3client\ObjectSerializer;
+use \TBAAPI\v3client\ObjectSerializer;
 
 /**
  * TeamEventStatusRankRanking Class Doc Comment
  *
  * @category Class
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -60,7 +60,7 @@ class TeamEventStatusRankRanking implements ModelInterface, ArrayAccess
         'matches_played' => 'int',
         'qual_average' => 'double',
         'sort_orders' => 'float[]',
-        'record' => '\TBA-API\v3client\TBA-API\v3client\model\WLTRecord',
+        'record' => '\TBAAPI\v3client\TBAAPI\v3client\model\WLTRecord',
         'rank' => 'int',
         'dq' => 'int',
         'team_key' => 'string'
@@ -315,7 +315,7 @@ class TeamEventStatusRankRanking implements ModelInterface, ArrayAccess
     /**
      * Gets record
      *
-     * @return \TBA-API\v3client\TBA-API\v3client\model\WLTRecord|null
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\WLTRecord|null
      */
     public function getRecord()
     {
@@ -325,7 +325,7 @@ class TeamEventStatusRankRanking implements ModelInterface, ArrayAccess
     /**
      * Sets record
      *
-     * @param \TBA-API\v3client\TBA-API\v3client\model\WLTRecord|null $record record
+     * @param \TBAAPI\v3client\TBAAPI\v3client\model\WLTRecord|null $record record
      *
      * @return $this
      */

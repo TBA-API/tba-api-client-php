@@ -1,4 +1,4 @@
-# TBA-API\v3client\TBAApi
+# TBAAPI\v3client\TBAApi
 
 All URIs are relative to *https://www.thebluealliance.com/api/v3*
 
@@ -10,7 +10,7 @@ Method | HTTP request | Description
 
 ## getStatus
 
-> \TBA-API\v3client\TBA-API\v3client\model\APIStatus getStatus($if_modified_since)
+> \TBAAPI\v3client\TBAAPI\v3client\model\APIStatus getStatus($if_modified_since)
 
 
 
@@ -24,12 +24,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: apiKey
-$config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
+$config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKey('X-TBA-Auth-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = TBA-API\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
+// $config = TBAAPI\v3client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-TBA-Auth-Key', 'Bearer');
 
 
-$apiInstance = new TBA-API\v3client\Api\TBAApi(
+$apiInstance = new TBAAPI\v3client\Api\TBAApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -55,7 +55,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\TBA-API\v3client\TBA-API\v3client\model\APIStatus**](../Model/APIStatus.md)
+[**\TBAAPI\v3client\TBAAPI\v3client\model\APIStatus**](../Model/APIStatus.md)
 
 ### Authorization
 

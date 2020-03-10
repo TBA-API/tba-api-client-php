@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**qual** | [**\TBA-API\v3client\TBA-API\v3client\model\TeamEventStatusRank**](TeamEventStatusRank.md) |  | [optional] 
-**alliance** | [**\TBA-API\v3client\TBA-API\v3client\model\TeamEventStatusAlliance**](TeamEventStatusAlliance.md) |  | [optional] 
-**playoff** | [**\TBA-API\v3client\TBA-API\v3client\model\TeamEventStatusPlayoff**](TeamEventStatusPlayoff.md) |  | [optional] 
+**qual** | [**\TBAAPI\v3client\TBAAPI\v3client\model\TeamEventStatusRank**](TeamEventStatusRank.md) |  | [optional] 
+**alliance** | [**\TBAAPI\v3client\TBAAPI\v3client\model\TeamEventStatusAlliance**](TeamEventStatusAlliance.md) |  | [optional] 
+**playoff** | [**\TBAAPI\v3client\TBAAPI\v3client\model\TeamEventStatusPlayoff**](TeamEventStatusPlayoff.md) |  | [optional] 
 **alliance_status_str** | **string** | An HTML formatted string suitable for display to the user containing the team&#39;s alliance pick status. | [optional] 
 **playoff_status_str** | **string** | An HTML formatter string suitable for display to the user containing the team&#39;s playoff status. | [optional] 
 **overall_status_str** | **string** | An HTML formatted string suitable for display to the user containing the team&#39;s overall status summary of the event. | [optional] 

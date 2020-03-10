@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace TBA-API\v3client\TBA-API\v3client\model;
+namespace TBAAPI\v3client\TBAAPI\v3client\model;
 
 use \ArrayAccess;
-use \TBA-API\v3client\ObjectSerializer;
+use \TBAAPI\v3client\ObjectSerializer;
 
 /**
  * EventDistrictPoints Class Doc Comment
  *
  * @category Class
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -57,8 +57,8 @@ class EventDistrictPoints implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $openAPITypes = [
-        'points' => 'map[string,\TBA-API\v3client\TBA-API\v3client\model\EventDistrictPointsPoints]',
-        'tiebreakers' => 'map[string,\TBA-API\v3client\TBA-API\v3client\model\EventDistrictPointsTiebreakers]'
+        'points' => 'map[string,\TBAAPI\v3client\TBAAPI\v3client\model\EventDistrictPointsPoints]',
+        'tiebreakers' => 'map[string,\TBAAPI\v3client\TBAAPI\v3client\model\EventDistrictPointsTiebreakers]'
     ];
 
     /**
@@ -216,7 +216,7 @@ class EventDistrictPoints implements ModelInterface, ArrayAccess
     /**
      * Gets points
      *
-     * @return map[string,\TBA-API\v3client\TBA-API\v3client\model\EventDistrictPointsPoints]
+     * @return map[string,\TBAAPI\v3client\TBAAPI\v3client\model\EventDistrictPointsPoints]
      */
     public function getPoints()
     {
@@ -226,7 +226,7 @@ class EventDistrictPoints implements ModelInterface, ArrayAccess
     /**
      * Sets points
      *
-     * @param map[string,\TBA-API\v3client\TBA-API\v3client\model\EventDistrictPointsPoints] $points Points gained for each team at the event. Stored as a key-value pair with the team key as the key, and an object describing the points as its value.
+     * @param map[string,\TBAAPI\v3client\TBAAPI\v3client\model\EventDistrictPointsPoints] $points Points gained for each team at the event. Stored as a key-value pair with the team key as the key, and an object describing the points as its value.
      *
      * @return $this
      */
@@ -240,7 +240,7 @@ class EventDistrictPoints implements ModelInterface, ArrayAccess
     /**
      * Gets tiebreakers
      *
-     * @return map[string,\TBA-API\v3client\TBA-API\v3client\model\EventDistrictPointsTiebreakers]|null
+     * @return map[string,\TBAAPI\v3client\TBAAPI\v3client\model\EventDistrictPointsTiebreakers]|null
      */
     public function getTiebreakers()
     {
@@ -250,7 +250,7 @@ class EventDistrictPoints implements ModelInterface, ArrayAccess
     /**
      * Sets tiebreakers
      *
-     * @param map[string,\TBA-API\v3client\TBA-API\v3client\model\EventDistrictPointsTiebreakers]|null $tiebreakers Tiebreaker values for each team at the event. Stored as a key-value pair with the team key as the key, and an object describing the tiebreaker elements as its value.
+     * @param map[string,\TBAAPI\v3client\TBAAPI\v3client\model\EventDistrictPointsTiebreakers]|null $tiebreakers Tiebreaker values for each team at the event. Stored as a key-value pair with the team key as the key, and an object describing the tiebreaker elements as its value.
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace TBA-API\v3client\TBA-API\v3client\model;
+namespace TBAAPI\v3client\TBAAPI\v3client\model;
 
 use \ArrayAccess;
-use \TBA-API\v3client\ObjectSerializer;
+use \TBAAPI\v3client\ObjectSerializer;
 
 /**
  * APIStatus Class Doc Comment
  *
  * @category Class
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -61,8 +61,8 @@ class APIStatus implements ModelInterface, ArrayAccess
         'max_season' => 'int',
         'is_datafeed_down' => 'bool',
         'down_events' => 'string[]',
-        'ios' => '\TBA-API\v3client\TBA-API\v3client\model\APIStatusAppVersion',
-        'android' => '\TBA-API\v3client\TBA-API\v3client\model\APIStatusAppVersion'
+        'ios' => '\TBAAPI\v3client\TBAAPI\v3client\model\APIStatusAppVersion',
+        'android' => '\TBAAPI\v3client\TBAAPI\v3client\model\APIStatusAppVersion'
     ];
 
     /**
@@ -351,7 +351,7 @@ class APIStatus implements ModelInterface, ArrayAccess
     /**
      * Gets ios
      *
-     * @return \TBA-API\v3client\TBA-API\v3client\model\APIStatusAppVersion
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\APIStatusAppVersion
      */
     public function getIos()
     {
@@ -361,7 +361,7 @@ class APIStatus implements ModelInterface, ArrayAccess
     /**
      * Sets ios
      *
-     * @param \TBA-API\v3client\TBA-API\v3client\model\APIStatusAppVersion $ios ios
+     * @param \TBAAPI\v3client\TBAAPI\v3client\model\APIStatusAppVersion $ios ios
      *
      * @return $this
      */
@@ -375,7 +375,7 @@ class APIStatus implements ModelInterface, ArrayAccess
     /**
      * Gets android
      *
-     * @return \TBA-API\v3client\TBA-API\v3client\model\APIStatusAppVersion
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\APIStatusAppVersion
      */
     public function getAndroid()
     {
@@ -385,7 +385,7 @@ class APIStatus implements ModelInterface, ArrayAccess
     /**
      * Sets android
      *
-     * @param \TBA-API\v3client\TBA-API\v3client\model\APIStatusAppVersion $android android
+     * @param \TBAAPI\v3client\TBAAPI\v3client\model\APIStatusAppVersion $android android
      *
      * @return $this
      */

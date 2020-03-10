@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace TBA-API\v3client\TBA-API\v3client\model;
+namespace TBAAPI\v3client\TBAAPI\v3client\model;
 
 use \ArrayAccess;
-use \TBA-API\v3client\ObjectSerializer;
+use \TBAAPI\v3client\ObjectSerializer;
 
 /**
  * Event Class Doc Comment
  *
  * @category Class
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -61,7 +61,7 @@ class Event implements ModelInterface, ArrayAccess
         'name' => 'string',
         'event_code' => 'string',
         'event_type' => 'int',
-        'district' => '\TBA-API\v3client\TBA-API\v3client\model\DistrictList',
+        'district' => '\TBAAPI\v3client\TBAAPI\v3client\model\DistrictList',
         'city' => 'string',
         'state_prov' => 'string',
         'country' => 'string',
@@ -82,7 +82,7 @@ class Event implements ModelInterface, ArrayAccess
         'website' => 'string',
         'first_event_id' => 'string',
         'first_event_code' => 'string',
-        'webcasts' => '\TBA-API\v3client\TBA-API\v3client\model\Webcast[]',
+        'webcasts' => '\TBAAPI\v3client\TBAAPI\v3client\model\Webcast[]',
         'division_keys' => 'string[]',
         'parent_event_key' => 'string',
         'playoff_type' => 'int',
@@ -501,7 +501,7 @@ class Event implements ModelInterface, ArrayAccess
     /**
      * Gets district
      *
-     * @return \TBA-API\v3client\TBA-API\v3client\model\DistrictList|null
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\DistrictList|null
      */
     public function getDistrict()
     {
@@ -511,7 +511,7 @@ class Event implements ModelInterface, ArrayAccess
     /**
      * Sets district
      *
-     * @param \TBA-API\v3client\TBA-API\v3client\model\DistrictList|null $district district
+     * @param \TBAAPI\v3client\TBAAPI\v3client\model\DistrictList|null $district district
      *
      * @return $this
      */
@@ -1005,7 +1005,7 @@ class Event implements ModelInterface, ArrayAccess
     /**
      * Gets webcasts
      *
-     * @return \TBA-API\v3client\TBA-API\v3client\model\Webcast[]|null
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\Webcast[]|null
      */
     public function getWebcasts()
     {
@@ -1015,7 +1015,7 @@ class Event implements ModelInterface, ArrayAccess
     /**
      * Sets webcasts
      *
-     * @param \TBA-API\v3client\TBA-API\v3client\model\Webcast[]|null $webcasts webcasts
+     * @param \TBAAPI\v3client\TBAAPI\v3client\model\Webcast[]|null $webcasts webcasts
      *
      * @return $this
      */

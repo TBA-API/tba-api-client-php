@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 **name** | **string** | Official name of event on record either provided by FIRST or organizers of offseason event. | 
 **event_code** | **string** | Event short code, as provided by FIRST. | 
 **event_type** | **int** | Event Type, as defined here: https://github.com/the-blue-alliance/the-blue-alliance/blob/master/consts/event_type.py#L2 | 
-**district** | [**\TBA-API\v3client\TBA-API\v3client\model\DistrictList**](DistrictList.md) |  | [optional] 
+**district** | [**\TBAAPI\v3client\TBAAPI\v3client\model\DistrictList**](DistrictList.md) |  | [optional] 
 **city** | **string** | City, town, village, etc. the event is located in. | [optional] 
 **state_prov** | **string** | State or Province the event is located in. | [optional] 
 **country** | **string** | Country the event is located in. | [optional] 
@@ -29,7 +29,7 @@ Name | Type | Description | Notes
 **website** | **string** | The event&#39;s website, if any. | [optional] 
 **first_event_id** | **string** | The FIRST internal Event ID, used to link to the event on the FRC webpage. | [optional] 
 **first_event_code** | **string** | Public facing event code used by FIRST (on frc-events.firstinspires.org, for example) | [optional] 
-**webcasts** | [**\TBA-API\v3client\TBA-API\v3client\model\Webcast[]**](Webcast.md) |  | [optional] 
+**webcasts** | [**\TBAAPI\v3client\TBAAPI\v3client\model\Webcast[]**](Webcast.md) |  | [optional] 
 **division_keys** | **string[]** | An array of event keys for the divisions at this event. | [optional] 
 **parent_event_key** | **string** | The TBA Event key that represents the event&#39;s parent. Used to link back to the event from a division event. It is also the inverse relation of &#x60;divison_keys&#x60;. | [optional] 
 **playoff_type** | **int** | Playoff Type, as defined here: https://github.com/the-blue-alliance/the-blue-alliance/blob/master/consts/playoff_type.py#L4, or null. | [optional] 

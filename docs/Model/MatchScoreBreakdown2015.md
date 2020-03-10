@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**blue** | [**\TBA-API\v3client\TBA-API\v3client\model\MatchScoreBreakdown2015Alliance**](MatchScoreBreakdown2015Alliance.md) |  | [optional] 
-**red** | [**\TBA-API\v3client\TBA-API\v3client\model\MatchScoreBreakdown2015Alliance**](MatchScoreBreakdown2015Alliance.md) |  | [optional] 
+**blue** | [**\TBAAPI\v3client\TBAAPI\v3client\model\MatchScoreBreakdown2015Alliance**](MatchScoreBreakdown2015Alliance.md) |  | [optional] 
+**red** | [**\TBAAPI\v3client\TBAAPI\v3client\model\MatchScoreBreakdown2015Alliance**](MatchScoreBreakdown2015Alliance.md) |  | [optional] 
 **coopertition** | **string** |  | [optional] 
 **coopertition_points** | **int** |  | [optional] 
 

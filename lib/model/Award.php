@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace TBA-API\v3client\TBA-API\v3client\model;
+namespace TBAAPI\v3client\TBAAPI\v3client\model;
 
 use \ArrayAccess;
-use \TBA-API\v3client\ObjectSerializer;
+use \TBAAPI\v3client\ObjectSerializer;
 
 /**
  * Award Class Doc Comment
  *
  * @category Class
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -60,7 +60,7 @@ class Award implements ModelInterface, ArrayAccess
         'name' => 'string',
         'award_type' => 'int',
         'event_key' => 'string',
-        'recipient_list' => '\TBA-API\v3client\TBA-API\v3client\model\AwardRecipient[]',
+        'recipient_list' => '\TBAAPI\v3client\TBAAPI\v3client\model\AwardRecipient[]',
         'year' => 'int'
     ];
 
@@ -318,7 +318,7 @@ class Award implements ModelInterface, ArrayAccess
     /**
      * Gets recipient_list
      *
-     * @return \TBA-API\v3client\TBA-API\v3client\model\AwardRecipient[]
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\AwardRecipient[]
      */
     public function getRecipientList()
     {
@@ -328,7 +328,7 @@ class Award implements ModelInterface, ArrayAccess
     /**
      * Sets recipient_list
      *
-     * @param \TBA-API\v3client\TBA-API\v3client\model\AwardRecipient[] $recipient_list A list of recipients of the award at the event. May have either a team_key or an awardee, both, or neither (in the case the award wasn't awarded at the event).
+     * @param \TBAAPI\v3client\TBAAPI\v3client\model\AwardRecipient[] $recipient_list A list of recipients of the award at the event. May have either a team_key or an awardee, both, or neither (in the case the award wasn't awarded at the event).
      *
      * @return $this
      */

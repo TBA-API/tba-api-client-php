@@ -31,9 +31,9 @@
         "friendsofphp/php-cs-fixer": "~2.12"
     },
     "autoload": {
-        "psr-4": { "TBA-API\\v3client\\" : "lib/" }
+        "psr-4": { "TBAAPI\\v3client\\" : "lib/" }
     },
     "autoload-dev": {
-        "psr-4": { "TBA-API\\v3client\\" : "test/" }
+        "psr-4": { "TBAAPI\\v3client\\" : "test/" }
     }
 }

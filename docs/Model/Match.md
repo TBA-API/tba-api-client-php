@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 **comp_level** | **string** | The competition level the match was played at. | 
 **set_number** | **int** | The set number in a series of matches where more than one match is required in the match series. | 
 **match_number** | **int** | The match number of the match in the competition level. | 
-**alliances** | [**\TBA-API\v3client\TBA-API\v3client\model\MatchSimpleAlliances**](MatchSimpleAlliances.md) |  | [optional] 
+**alliances** | [**\TBAAPI\v3client\TBAAPI\v3client\model\MatchSimpleAlliances**](MatchSimpleAlliances.md) |  | [optional] 
 **winning_alliance** | **string** | The color (red/blue) of the winning alliance. Will contain an empty string in the event of no winner, or a tie. | [optional] 
 **event_key** | **string** | Event key of the event the match was played at. | 
 **time** | **int** | UNIX timestamp (seconds since 1-Jan-1970 00:00:00) of the scheduled match time, as taken from the published schedule. | [optional] 
@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 **predicted_time** | **int** | UNIX timestamp (seconds since 1-Jan-1970 00:00:00) of the TBA predicted match start time. | [optional] 
 **post_result_time** | **int** | UNIX timestamp (seconds since 1-Jan-1970 00:00:00) when the match result was posted. | [optional] 
 **score_breakdown** | [**object**](.md) | Score breakdown for auto, teleop, etc. points. Varies from year to year. May be null. | [optional] 
-**videos** | [**\TBA-API\v3client\TBA-API\v3client\model\MatchVideos[]**](MatchVideos.md) | Array of video objects associated with this match. | [optional] 
+**videos** | [**\TBAAPI\v3client\TBAAPI\v3client\model\MatchVideos[]**](MatchVideos.md) | Array of video objects associated with this match. | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

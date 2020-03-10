@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  TBA-API\v3client\TBA-API\v3client\model
+ * @package  TBAAPI\v3client\TBAAPI\v3client\model
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,12 +27,12 @@
  * Do not edit the class manually.
  */
 
-namespace TBA-API\v3client\TBA-API\v3client\model;
+namespace TBAAPI\v3client\TBAAPI\v3client\model;
 
 /**
  * Interface abstracting model access.
  *
- * @package TBA-API\v3client\TBA-API\v3client\model
+ * @package TBAAPI\v3client\TBAAPI\v3client\model
  * @author  OpenAPI Generator team
  */
 interface ModelInterface

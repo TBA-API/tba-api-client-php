@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace TBA-API\v3client\TBA-API\v3client\model;
+namespace TBAAPI\v3client\TBAAPI\v3client\model;
 
 use \ArrayAccess;
-use \TBA-API\v3client\ObjectSerializer;
+use \TBAAPI\v3client\ObjectSerializer;
 
 /**
  * TeamEventStatusAlliance Class Doc Comment
  *
  * @category Class
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -59,7 +59,7 @@ class TeamEventStatusAlliance implements ModelInterface, ArrayAccess
     protected static $openAPITypes = [
         'name' => 'string',
         'number' => 'int',
-        'backup' => '\TBA-API\v3client\TBA-API\v3client\model\TeamEventStatusAllianceBackup',
+        'backup' => '\TBAAPI\v3client\TBAAPI\v3client\model\TeamEventStatusAllianceBackup',
         'pick' => 'int'
     ];
 
@@ -279,7 +279,7 @@ class TeamEventStatusAlliance implements ModelInterface, ArrayAccess
     /**
      * Gets backup
      *
-     * @return \TBA-API\v3client\TBA-API\v3client\model\TeamEventStatusAllianceBackup|null
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\TeamEventStatusAllianceBackup|null
      */
     public function getBackup()
     {
@@ -289,7 +289,7 @@ class TeamEventStatusAlliance implements ModelInterface, ArrayAccess
     /**
      * Sets backup
      *
-     * @param \TBA-API\v3client\TBA-API\v3client\model\TeamEventStatusAllianceBackup|null $backup backup
+     * @param \TBAAPI\v3client\TBAAPI\v3client\model\TeamEventStatusAllianceBackup|null $backup backup
      *
      * @return $this
      */

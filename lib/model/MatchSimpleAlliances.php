@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace TBA-API\v3client\TBA-API\v3client\model;
+namespace TBAAPI\v3client\TBAAPI\v3client\model;
 
 use \ArrayAccess;
-use \TBA-API\v3client\ObjectSerializer;
+use \TBAAPI\v3client\ObjectSerializer;
 
 /**
  * MatchSimpleAlliances Class Doc Comment
  *
  * @category Class
  * @description A list of alliances, the teams on the alliances, and their score.
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -58,8 +58,8 @@ class MatchSimpleAlliances implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $openAPITypes = [
-        'red' => '\TBA-API\v3client\TBA-API\v3client\model\MatchAlliance',
-        'blue' => '\TBA-API\v3client\TBA-API\v3client\model\MatchAlliance'
+        'red' => '\TBAAPI\v3client\TBAAPI\v3client\model\MatchAlliance',
+        'blue' => '\TBAAPI\v3client\TBAAPI\v3client\model\MatchAlliance'
     ];
 
     /**
@@ -214,7 +214,7 @@ class MatchSimpleAlliances implements ModelInterface, ArrayAccess
     /**
      * Gets red
      *
-     * @return \TBA-API\v3client\TBA-API\v3client\model\MatchAlliance|null
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\MatchAlliance|null
      */
     public function getRed()
     {
@@ -224,7 +224,7 @@ class MatchSimpleAlliances implements ModelInterface, ArrayAccess
     /**
      * Sets red
      *
-     * @param \TBA-API\v3client\TBA-API\v3client\model\MatchAlliance|null $red red
+     * @param \TBAAPI\v3client\TBAAPI\v3client\model\MatchAlliance|null $red red
      *
      * @return $this
      */
@@ -238,7 +238,7 @@ class MatchSimpleAlliances implements ModelInterface, ArrayAccess
     /**
      * Gets blue
      *
-     * @return \TBA-API\v3client\TBA-API\v3client\model\MatchAlliance|null
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\MatchAlliance|null
      */
     public function getBlue()
     {
@@ -248,7 +248,7 @@ class MatchSimpleAlliances implements ModelInterface, ArrayAccess
     /**
      * Sets blue
      *
-     * @param \TBA-API\v3client\TBA-API\v3client\model\MatchAlliance|null $blue blue
+     * @param \TBAAPI\v3client\TBAAPI\v3client\model\MatchAlliance|null $blue blue
      *
      * @return $this
      */

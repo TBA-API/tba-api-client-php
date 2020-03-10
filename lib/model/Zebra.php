@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace TBA-API\v3client\TBA-API\v3client\model;
+namespace TBAAPI\v3client\TBAAPI\v3client\model;
 
 use \ArrayAccess;
-use \TBA-API\v3client\ObjectSerializer;
+use \TBAAPI\v3client\ObjectSerializer;
 
 /**
  * Zebra Class Doc Comment
  *
  * @category Class
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -59,7 +59,7 @@ class Zebra implements ModelInterface, ArrayAccess
     protected static $openAPITypes = [
         'key' => 'string',
         'times' => 'double[]',
-        'alliances' => '\TBA-API\v3client\TBA-API\v3client\model\ZebraAlliances'
+        'alliances' => '\TBAAPI\v3client\TBAAPI\v3client\model\ZebraAlliances'
     ];
 
     /**
@@ -276,7 +276,7 @@ class Zebra implements ModelInterface, ArrayAccess
     /**
      * Gets alliances
      *
-     * @return \TBA-API\v3client\TBA-API\v3client\model\ZebraAlliances
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\ZebraAlliances
      */
     public function getAlliances()
     {
@@ -286,7 +286,7 @@ class Zebra implements ModelInterface, ArrayAccess
     /**
      * Sets alliances
      *
-     * @param \TBA-API\v3client\TBA-API\v3client\model\ZebraAlliances $alliances alliances
+     * @param \TBAAPI\v3client\TBAAPI\v3client\model\ZebraAlliances $alliances alliances
      *
      * @return $this
      */

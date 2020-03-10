@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace TBA-API\v3client\TBA-API\v3client\api;
+namespace TBAAPI\v3client\TBAAPI\v3client\api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use TBA-API\v3client\ApiException;
-use TBA-API\v3client\Configuration;
-use TBA-API\v3client\HeaderSelector;
-use TBA-API\v3client\ObjectSerializer;
+use TBAAPI\v3client\ApiException;
+use TBAAPI\v3client\Configuration;
+use TBAAPI\v3client\HeaderSelector;
+use TBAAPI\v3client\ObjectSerializer;
 
 /**
  * MatchApi Class Doc Comment
  *
  * @category Class
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -121,7 +121,7 @@ class MatchApi
      * @param  string $event_key TBA Event Key, eg &#x60;2016nytr&#x60; (required)
      * @param  string $if_modified_since Value of the &#x60;Last-Modified&#x60; header in the most recently cached response by the client. (optional)
      *
-     * @throws \TBA-API\v3client\ApiException on non-2xx response
+     * @throws \TBAAPI\v3client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return string[]
      */
@@ -137,7 +137,7 @@ class MatchApi
      * @param  string $event_key TBA Event Key, eg &#x60;2016nytr&#x60; (required)
      * @param  string $if_modified_since Value of the &#x60;Last-Modified&#x60; header in the most recently cached response by the client. (optional)
      *
-     * @throws \TBA-API\v3client\ApiException on non-2xx response
+     * @throws \TBAAPI\v3client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of string[], HTTP status code, HTTP response headers (array of strings)
      */
@@ -403,9 +403,9 @@ class MatchApi
      * @param  string $event_key TBA Event Key, eg &#x60;2016nytr&#x60; (required)
      * @param  string $if_modified_since Value of the &#x60;Last-Modified&#x60; header in the most recently cached response by the client. (optional)
      *
-     * @throws \TBA-API\v3client\ApiException on non-2xx response
+     * @throws \TBAAPI\v3client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \TBA-API\v3client\TBA-API\v3client\model\Match[]
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\Match[]
      */
     public function getEventMatches($event_key, $if_modified_since = null)
     {
@@ -419,9 +419,9 @@ class MatchApi
      * @param  string $event_key TBA Event Key, eg &#x60;2016nytr&#x60; (required)
      * @param  string $if_modified_since Value of the &#x60;Last-Modified&#x60; header in the most recently cached response by the client. (optional)
      *
-     * @throws \TBA-API\v3client\ApiException on non-2xx response
+     * @throws \TBAAPI\v3client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \TBA-API\v3client\TBA-API\v3client\model\Match[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \TBAAPI\v3client\TBAAPI\v3client\model\Match[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getEventMatchesWithHttpInfo($event_key, $if_modified_since = null)
     {
@@ -458,20 +458,20 @@ class MatchApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\TBA-API\v3client\TBA-API\v3client\model\Match[]' === '\SplFileObject') {
+                    if ('\TBAAPI\v3client\TBAAPI\v3client\model\Match[]' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\TBA-API\v3client\TBA-API\v3client\model\Match[]', []),
+                        ObjectSerializer::deserialize($content, '\TBAAPI\v3client\TBAAPI\v3client\model\Match[]', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\TBA-API\v3client\TBA-API\v3client\model\Match[]';
+            $returnType = '\TBAAPI\v3client\TBAAPI\v3client\model\Match[]';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -490,7 +490,7 @@ class MatchApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\TBA-API\v3client\TBA-API\v3client\model\Match[]',
+                        '\TBAAPI\v3client\TBAAPI\v3client\model\Match[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -534,7 +534,7 @@ class MatchApi
      */
     public function getEventMatchesAsyncWithHttpInfo($event_key, $if_modified_since = null)
     {
-        $returnType = '\TBA-API\v3client\TBA-API\v3client\model\Match[]';
+        $returnType = '\TBAAPI\v3client\TBAAPI\v3client\model\Match[]';
         $request = $this->getEventMatchesRequest($event_key, $if_modified_since);
 
         return $this->client
@@ -685,7 +685,7 @@ class MatchApi
      * @param  string $event_key TBA Event Key, eg &#x60;2016nytr&#x60; (required)
      * @param  string $if_modified_since Value of the &#x60;Last-Modified&#x60; header in the most recently cached response by the client. (optional)
      *
-     * @throws \TBA-API\v3client\ApiException on non-2xx response
+     * @throws \TBAAPI\v3client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return string[]
      */
@@ -701,7 +701,7 @@ class MatchApi
      * @param  string $event_key TBA Event Key, eg &#x60;2016nytr&#x60; (required)
      * @param  string $if_modified_since Value of the &#x60;Last-Modified&#x60; header in the most recently cached response by the client. (optional)
      *
-     * @throws \TBA-API\v3client\ApiException on non-2xx response
+     * @throws \TBAAPI\v3client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of string[], HTTP status code, HTTP response headers (array of strings)
      */
@@ -967,9 +967,9 @@ class MatchApi
      * @param  string $event_key TBA Event Key, eg &#x60;2016nytr&#x60; (required)
      * @param  string $if_modified_since Value of the &#x60;Last-Modified&#x60; header in the most recently cached response by the client. (optional)
      *
-     * @throws \TBA-API\v3client\ApiException on non-2xx response
+     * @throws \TBAAPI\v3client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \TBA-API\v3client\TBA-API\v3client\model\MatchSimple[]
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\MatchSimple[]
      */
     public function getEventMatchesSimple($event_key, $if_modified_since = null)
     {
@@ -983,9 +983,9 @@ class MatchApi
      * @param  string $event_key TBA Event Key, eg &#x60;2016nytr&#x60; (required)
      * @param  string $if_modified_since Value of the &#x60;Last-Modified&#x60; header in the most recently cached response by the client. (optional)
      *
-     * @throws \TBA-API\v3client\ApiException on non-2xx response
+     * @throws \TBAAPI\v3client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \TBA-API\v3client\TBA-API\v3client\model\MatchSimple[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \TBAAPI\v3client\TBAAPI\v3client\model\MatchSimple[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getEventMatchesSimpleWithHttpInfo($event_key, $if_modified_since = null)
     {
@@ -1022,20 +1022,20 @@ class MatchApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\TBA-API\v3client\TBA-API\v3client\model\MatchSimple[]' === '\SplFileObject') {
+                    if ('\TBAAPI\v3client\TBAAPI\v3client\model\MatchSimple[]' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\TBA-API\v3client\TBA-API\v3client\model\MatchSimple[]', []),
+                        ObjectSerializer::deserialize($content, '\TBAAPI\v3client\TBAAPI\v3client\model\MatchSimple[]', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\TBA-API\v3client\TBA-API\v3client\model\MatchSimple[]';
+            $returnType = '\TBAAPI\v3client\TBAAPI\v3client\model\MatchSimple[]';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -1054,7 +1054,7 @@ class MatchApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\TBA-API\v3client\TBA-API\v3client\model\MatchSimple[]',
+                        '\TBAAPI\v3client\TBAAPI\v3client\model\MatchSimple[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1098,7 +1098,7 @@ class MatchApi
      */
     public function getEventMatchesSimpleAsyncWithHttpInfo($event_key, $if_modified_since = null)
     {
-        $returnType = '\TBA-API\v3client\TBA-API\v3client\model\MatchSimple[]';
+        $returnType = '\TBAAPI\v3client\TBAAPI\v3client\model\MatchSimple[]';
         $request = $this->getEventMatchesSimpleRequest($event_key, $if_modified_since);
 
         return $this->client
@@ -1249,9 +1249,9 @@ class MatchApi
      * @param  string $match_key TBA Match Key, eg &#x60;2016nytr_qm1&#x60; (required)
      * @param  string $if_modified_since Value of the &#x60;Last-Modified&#x60; header in the most recently cached response by the client. (optional)
      *
-     * @throws \TBA-API\v3client\ApiException on non-2xx response
+     * @throws \TBAAPI\v3client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \TBA-API\v3client\TBA-API\v3client\model\Match
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\Match
      */
     public function getMatch($match_key, $if_modified_since = null)
     {
@@ -1265,9 +1265,9 @@ class MatchApi
      * @param  string $match_key TBA Match Key, eg &#x60;2016nytr_qm1&#x60; (required)
      * @param  string $if_modified_since Value of the &#x60;Last-Modified&#x60; header in the most recently cached response by the client. (optional)
      *
-     * @throws \TBA-API\v3client\ApiException on non-2xx response
+     * @throws \TBAAPI\v3client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \TBA-API\v3client\TBA-API\v3client\model\Match, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \TBAAPI\v3client\TBAAPI\v3client\model\Match, HTTP status code, HTTP response headers (array of strings)
      */
     public function getMatchWithHttpInfo($match_key, $if_modified_since = null)
     {
@@ -1304,20 +1304,20 @@ class MatchApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\TBA-API\v3client\TBA-API\v3client\model\Match' === '\SplFileObject') {
+                    if ('\TBAAPI\v3client\TBAAPI\v3client\model\Match' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\TBA-API\v3client\TBA-API\v3client\model\Match', []),
+                        ObjectSerializer::deserialize($content, '\TBAAPI\v3client\TBAAPI\v3client\model\Match', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\TBA-API\v3client\TBA-API\v3client\model\Match';
+            $returnType = '\TBAAPI\v3client\TBAAPI\v3client\model\Match';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -1336,7 +1336,7 @@ class MatchApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\TBA-API\v3client\TBA-API\v3client\model\Match',
+                        '\TBAAPI\v3client\TBAAPI\v3client\model\Match',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1380,7 +1380,7 @@ class MatchApi
      */
     public function getMatchAsyncWithHttpInfo($match_key, $if_modified_since = null)
     {
-        $returnType = '\TBA-API\v3client\TBA-API\v3client\model\Match';
+        $returnType = '\TBAAPI\v3client\TBAAPI\v3client\model\Match';
         $request = $this->getMatchRequest($match_key, $if_modified_since);
 
         return $this->client
@@ -1531,9 +1531,9 @@ class MatchApi
      * @param  string $match_key TBA Match Key, eg &#x60;2016nytr_qm1&#x60; (required)
      * @param  string $if_modified_since Value of the &#x60;Last-Modified&#x60; header in the most recently cached response by the client. (optional)
      *
-     * @throws \TBA-API\v3client\ApiException on non-2xx response
+     * @throws \TBAAPI\v3client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \TBA-API\v3client\TBA-API\v3client\model\MatchSimple
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\MatchSimple
      */
     public function getMatchSimple($match_key, $if_modified_since = null)
     {
@@ -1547,9 +1547,9 @@ class MatchApi
      * @param  string $match_key TBA Match Key, eg &#x60;2016nytr_qm1&#x60; (required)
      * @param  string $if_modified_since Value of the &#x60;Last-Modified&#x60; header in the most recently cached response by the client. (optional)
      *
-     * @throws \TBA-API\v3client\ApiException on non-2xx response
+     * @throws \TBAAPI\v3client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \TBA-API\v3client\TBA-API\v3client\model\MatchSimple, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \TBAAPI\v3client\TBAAPI\v3client\model\MatchSimple, HTTP status code, HTTP response headers (array of strings)
      */
     public function getMatchSimpleWithHttpInfo($match_key, $if_modified_since = null)
     {
@@ -1586,20 +1586,20 @@ class MatchApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\TBA-API\v3client\TBA-API\v3client\model\MatchSimple' === '\SplFileObject') {
+                    if ('\TBAAPI\v3client\TBAAPI\v3client\model\MatchSimple' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\TBA-API\v3client\TBA-API\v3client\model\MatchSimple', []),
+                        ObjectSerializer::deserialize($content, '\TBAAPI\v3client\TBAAPI\v3client\model\MatchSimple', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\TBA-API\v3client\TBA-API\v3client\model\MatchSimple';
+            $returnType = '\TBAAPI\v3client\TBAAPI\v3client\model\MatchSimple';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -1618,7 +1618,7 @@ class MatchApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\TBA-API\v3client\TBA-API\v3client\model\MatchSimple',
+                        '\TBAAPI\v3client\TBAAPI\v3client\model\MatchSimple',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1662,7 +1662,7 @@ class MatchApi
      */
     public function getMatchSimpleAsyncWithHttpInfo($match_key, $if_modified_since = null)
     {
-        $returnType = '\TBA-API\v3client\TBA-API\v3client\model\MatchSimple';
+        $returnType = '\TBAAPI\v3client\TBAAPI\v3client\model\MatchSimple';
         $request = $this->getMatchSimpleRequest($match_key, $if_modified_since);
 
         return $this->client
@@ -1813,7 +1813,7 @@ class MatchApi
      * @param  string $match_key TBA Match Key, eg &#x60;2016nytr_qm1&#x60; (required)
      * @param  string $if_modified_since Value of the &#x60;Last-Modified&#x60; header in the most recently cached response by the client. (optional)
      *
-     * @throws \TBA-API\v3client\ApiException on non-2xx response
+     * @throws \TBAAPI\v3client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return object[]
      */
@@ -1829,7 +1829,7 @@ class MatchApi
      * @param  string $match_key TBA Match Key, eg &#x60;2016nytr_qm1&#x60; (required)
      * @param  string $if_modified_since Value of the &#x60;Last-Modified&#x60; header in the most recently cached response by the client. (optional)
      *
-     * @throws \TBA-API\v3client\ApiException on non-2xx response
+     * @throws \TBAAPI\v3client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of object[], HTTP status code, HTTP response headers (array of strings)
      */
@@ -2095,9 +2095,9 @@ class MatchApi
      * @param  string $match_key TBA Match Key, eg &#x60;2016nytr_qm1&#x60; (required)
      * @param  string $if_modified_since Value of the &#x60;Last-Modified&#x60; header in the most recently cached response by the client. (optional)
      *
-     * @throws \TBA-API\v3client\ApiException on non-2xx response
+     * @throws \TBAAPI\v3client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \TBA-API\v3client\TBA-API\v3client\model\Zebra
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\Zebra
      */
     public function getMatchZebra($match_key, $if_modified_since = null)
     {
@@ -2111,9 +2111,9 @@ class MatchApi
      * @param  string $match_key TBA Match Key, eg &#x60;2016nytr_qm1&#x60; (required)
      * @param  string $if_modified_since Value of the &#x60;Last-Modified&#x60; header in the most recently cached response by the client. (optional)
      *
-     * @throws \TBA-API\v3client\ApiException on non-2xx response
+     * @throws \TBAAPI\v3client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \TBA-API\v3client\TBA-API\v3client\model\Zebra, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \TBAAPI\v3client\TBAAPI\v3client\model\Zebra, HTTP status code, HTTP response headers (array of strings)
      */
     public function getMatchZebraWithHttpInfo($match_key, $if_modified_since = null)
     {
@@ -2150,20 +2150,20 @@ class MatchApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\TBA-API\v3client\TBA-API\v3client\model\Zebra' === '\SplFileObject') {
+                    if ('\TBAAPI\v3client\TBAAPI\v3client\model\Zebra' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\TBA-API\v3client\TBA-API\v3client\model\Zebra', []),
+                        ObjectSerializer::deserialize($content, '\TBAAPI\v3client\TBAAPI\v3client\model\Zebra', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\TBA-API\v3client\TBA-API\v3client\model\Zebra';
+            $returnType = '\TBAAPI\v3client\TBAAPI\v3client\model\Zebra';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -2182,7 +2182,7 @@ class MatchApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\TBA-API\v3client\TBA-API\v3client\model\Zebra',
+                        '\TBAAPI\v3client\TBAAPI\v3client\model\Zebra',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -2226,7 +2226,7 @@ class MatchApi
      */
     public function getMatchZebraAsyncWithHttpInfo($match_key, $if_modified_since = null)
     {
-        $returnType = '\TBA-API\v3client\TBA-API\v3client\model\Zebra';
+        $returnType = '\TBAAPI\v3client\TBAAPI\v3client\model\Zebra';
         $request = $this->getMatchZebraRequest($match_key, $if_modified_since);
 
         return $this->client
@@ -2378,9 +2378,9 @@ class MatchApi
      * @param  string $event_key TBA Event Key, eg &#x60;2016nytr&#x60; (required)
      * @param  string $if_modified_since Value of the &#x60;Last-Modified&#x60; header in the most recently cached response by the client. (optional)
      *
-     * @throws \TBA-API\v3client\ApiException on non-2xx response
+     * @throws \TBAAPI\v3client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \TBA-API\v3client\TBA-API\v3client\model\Match[]
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\Match[]
      */
     public function getTeamEventMatches($team_key, $event_key, $if_modified_since = null)
     {
@@ -2395,9 +2395,9 @@ class MatchApi
      * @param  string $event_key TBA Event Key, eg &#x60;2016nytr&#x60; (required)
      * @param  string $if_modified_since Value of the &#x60;Last-Modified&#x60; header in the most recently cached response by the client. (optional)
      *
-     * @throws \TBA-API\v3client\ApiException on non-2xx response
+     * @throws \TBAAPI\v3client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \TBA-API\v3client\TBA-API\v3client\model\Match[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \TBAAPI\v3client\TBAAPI\v3client\model\Match[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getTeamEventMatchesWithHttpInfo($team_key, $event_key, $if_modified_since = null)
     {
@@ -2434,20 +2434,20 @@ class MatchApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\TBA-API\v3client\TBA-API\v3client\model\Match[]' === '\SplFileObject') {
+                    if ('\TBAAPI\v3client\TBAAPI\v3client\model\Match[]' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\TBA-API\v3client\TBA-API\v3client\model\Match[]', []),
+                        ObjectSerializer::deserialize($content, '\TBAAPI\v3client\TBAAPI\v3client\model\Match[]', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\TBA-API\v3client\TBA-API\v3client\model\Match[]';
+            $returnType = '\TBAAPI\v3client\TBAAPI\v3client\model\Match[]';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -2466,7 +2466,7 @@ class MatchApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\TBA-API\v3client\TBA-API\v3client\model\Match[]',
+                        '\TBAAPI\v3client\TBAAPI\v3client\model\Match[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -2512,7 +2512,7 @@ class MatchApi
      */
     public function getTeamEventMatchesAsyncWithHttpInfo($team_key, $event_key, $if_modified_since = null)
     {
-        $returnType = '\TBA-API\v3client\TBA-API\v3client\model\Match[]';
+        $returnType = '\TBAAPI\v3client\TBAAPI\v3client\model\Match[]';
         $request = $this->getTeamEventMatchesRequest($team_key, $event_key, $if_modified_since);
 
         return $this->client
@@ -2679,7 +2679,7 @@ class MatchApi
      * @param  string $event_key TBA Event Key, eg &#x60;2016nytr&#x60; (required)
      * @param  string $if_modified_since Value of the &#x60;Last-Modified&#x60; header in the most recently cached response by the client. (optional)
      *
-     * @throws \TBA-API\v3client\ApiException on non-2xx response
+     * @throws \TBAAPI\v3client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return string[]
      */
@@ -2696,7 +2696,7 @@ class MatchApi
      * @param  string $event_key TBA Event Key, eg &#x60;2016nytr&#x60; (required)
      * @param  string $if_modified_since Value of the &#x60;Last-Modified&#x60; header in the most recently cached response by the client. (optional)
      *
-     * @throws \TBA-API\v3client\ApiException on non-2xx response
+     * @throws \TBAAPI\v3client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of string[], HTTP status code, HTTP response headers (array of strings)
      */
@@ -2980,9 +2980,9 @@ class MatchApi
      * @param  string $event_key TBA Event Key, eg &#x60;2016nytr&#x60; (required)
      * @param  string $if_modified_since Value of the &#x60;Last-Modified&#x60; header in the most recently cached response by the client. (optional)
      *
-     * @throws \TBA-API\v3client\ApiException on non-2xx response
+     * @throws \TBAAPI\v3client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \TBA-API\v3client\TBA-API\v3client\model\Match[]
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\Match[]
      */
     public function getTeamEventMatchesSimple($team_key, $event_key, $if_modified_since = null)
     {
@@ -2997,9 +2997,9 @@ class MatchApi
      * @param  string $event_key TBA Event Key, eg &#x60;2016nytr&#x60; (required)
      * @param  string $if_modified_since Value of the &#x60;Last-Modified&#x60; header in the most recently cached response by the client. (optional)
      *
-     * @throws \TBA-API\v3client\ApiException on non-2xx response
+     * @throws \TBAAPI\v3client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \TBA-API\v3client\TBA-API\v3client\model\Match[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \TBAAPI\v3client\TBAAPI\v3client\model\Match[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getTeamEventMatchesSimpleWithHttpInfo($team_key, $event_key, $if_modified_since = null)
     {
@@ -3036,20 +3036,20 @@ class MatchApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\TBA-API\v3client\TBA-API\v3client\model\Match[]' === '\SplFileObject') {
+                    if ('\TBAAPI\v3client\TBAAPI\v3client\model\Match[]' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\TBA-API\v3client\TBA-API\v3client\model\Match[]', []),
+                        ObjectSerializer::deserialize($content, '\TBAAPI\v3client\TBAAPI\v3client\model\Match[]', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\TBA-API\v3client\TBA-API\v3client\model\Match[]';
+            $returnType = '\TBAAPI\v3client\TBAAPI\v3client\model\Match[]';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -3068,7 +3068,7 @@ class MatchApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\TBA-API\v3client\TBA-API\v3client\model\Match[]',
+                        '\TBAAPI\v3client\TBAAPI\v3client\model\Match[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -3114,7 +3114,7 @@ class MatchApi
      */
     public function getTeamEventMatchesSimpleAsyncWithHttpInfo($team_key, $event_key, $if_modified_since = null)
     {
-        $returnType = '\TBA-API\v3client\TBA-API\v3client\model\Match[]';
+        $returnType = '\TBAAPI\v3client\TBAAPI\v3client\model\Match[]';
         $request = $this->getTeamEventMatchesSimpleRequest($team_key, $event_key, $if_modified_since);
 
         return $this->client
@@ -3281,9 +3281,9 @@ class MatchApi
      * @param  int $year Competition Year (or Season). Must be 4 digits. (required)
      * @param  string $if_modified_since Value of the &#x60;Last-Modified&#x60; header in the most recently cached response by the client. (optional)
      *
-     * @throws \TBA-API\v3client\ApiException on non-2xx response
+     * @throws \TBAAPI\v3client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \TBA-API\v3client\TBA-API\v3client\model\Match[]
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\Match[]
      */
     public function getTeamMatchesByYear($team_key, $year, $if_modified_since = null)
     {
@@ -3298,9 +3298,9 @@ class MatchApi
      * @param  int $year Competition Year (or Season). Must be 4 digits. (required)
      * @param  string $if_modified_since Value of the &#x60;Last-Modified&#x60; header in the most recently cached response by the client. (optional)
      *
-     * @throws \TBA-API\v3client\ApiException on non-2xx response
+     * @throws \TBAAPI\v3client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \TBA-API\v3client\TBA-API\v3client\model\Match[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \TBAAPI\v3client\TBAAPI\v3client\model\Match[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getTeamMatchesByYearWithHttpInfo($team_key, $year, $if_modified_since = null)
     {
@@ -3337,20 +3337,20 @@ class MatchApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\TBA-API\v3client\TBA-API\v3client\model\Match[]' === '\SplFileObject') {
+                    if ('\TBAAPI\v3client\TBAAPI\v3client\model\Match[]' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\TBA-API\v3client\TBA-API\v3client\model\Match[]', []),
+                        ObjectSerializer::deserialize($content, '\TBAAPI\v3client\TBAAPI\v3client\model\Match[]', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\TBA-API\v3client\TBA-API\v3client\model\Match[]';
+            $returnType = '\TBAAPI\v3client\TBAAPI\v3client\model\Match[]';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -3369,7 +3369,7 @@ class MatchApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\TBA-API\v3client\TBA-API\v3client\model\Match[]',
+                        '\TBAAPI\v3client\TBAAPI\v3client\model\Match[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -3415,7 +3415,7 @@ class MatchApi
      */
     public function getTeamMatchesByYearAsyncWithHttpInfo($team_key, $year, $if_modified_since = null)
     {
-        $returnType = '\TBA-API\v3client\TBA-API\v3client\model\Match[]';
+        $returnType = '\TBAAPI\v3client\TBAAPI\v3client\model\Match[]';
         $request = $this->getTeamMatchesByYearRequest($team_key, $year, $if_modified_since);
 
         return $this->client
@@ -3582,7 +3582,7 @@ class MatchApi
      * @param  int $year Competition Year (or Season). Must be 4 digits. (required)
      * @param  string $if_modified_since Value of the &#x60;Last-Modified&#x60; header in the most recently cached response by the client. (optional)
      *
-     * @throws \TBA-API\v3client\ApiException on non-2xx response
+     * @throws \TBAAPI\v3client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return string[]
      */
@@ -3599,7 +3599,7 @@ class MatchApi
      * @param  int $year Competition Year (or Season). Must be 4 digits. (required)
      * @param  string $if_modified_since Value of the &#x60;Last-Modified&#x60; header in the most recently cached response by the client. (optional)
      *
-     * @throws \TBA-API\v3client\ApiException on non-2xx response
+     * @throws \TBAAPI\v3client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of string[], HTTP status code, HTTP response headers (array of strings)
      */
@@ -3883,9 +3883,9 @@ class MatchApi
      * @param  int $year Competition Year (or Season). Must be 4 digits. (required)
      * @param  string $if_modified_since Value of the &#x60;Last-Modified&#x60; header in the most recently cached response by the client. (optional)
      *
-     * @throws \TBA-API\v3client\ApiException on non-2xx response
+     * @throws \TBAAPI\v3client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \TBA-API\v3client\TBA-API\v3client\model\MatchSimple[]
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\MatchSimple[]
      */
     public function getTeamMatchesByYearSimple($team_key, $year, $if_modified_since = null)
     {
@@ -3900,9 +3900,9 @@ class MatchApi
      * @param  int $year Competition Year (or Season). Must be 4 digits. (required)
      * @param  string $if_modified_since Value of the &#x60;Last-Modified&#x60; header in the most recently cached response by the client. (optional)
      *
-     * @throws \TBA-API\v3client\ApiException on non-2xx response
+     * @throws \TBAAPI\v3client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \TBA-API\v3client\TBA-API\v3client\model\MatchSimple[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \TBAAPI\v3client\TBAAPI\v3client\model\MatchSimple[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getTeamMatchesByYearSimpleWithHttpInfo($team_key, $year, $if_modified_since = null)
     {
@@ -3939,20 +3939,20 @@ class MatchApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\TBA-API\v3client\TBA-API\v3client\model\MatchSimple[]' === '\SplFileObject') {
+                    if ('\TBAAPI\v3client\TBAAPI\v3client\model\MatchSimple[]' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\TBA-API\v3client\TBA-API\v3client\model\MatchSimple[]', []),
+                        ObjectSerializer::deserialize($content, '\TBAAPI\v3client\TBAAPI\v3client\model\MatchSimple[]', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\TBA-API\v3client\TBA-API\v3client\model\MatchSimple[]';
+            $returnType = '\TBAAPI\v3client\TBAAPI\v3client\model\MatchSimple[]';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -3971,7 +3971,7 @@ class MatchApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\TBA-API\v3client\TBA-API\v3client\model\MatchSimple[]',
+                        '\TBAAPI\v3client\TBAAPI\v3client\model\MatchSimple[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -4017,7 +4017,7 @@ class MatchApi
      */
     public function getTeamMatchesByYearSimpleAsyncWithHttpInfo($team_key, $year, $if_modified_since = null)
     {
-        $returnType = '\TBA-API\v3client\TBA-API\v3client\model\MatchSimple[]';
+        $returnType = '\TBAAPI\v3client\TBAAPI\v3client\model\MatchSimple[]';
         $request = $this->getTeamMatchesByYearSimpleRequest($team_key, $year, $if_modified_since);
 
         return $this->client

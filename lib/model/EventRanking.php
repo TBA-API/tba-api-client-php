@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace TBA-API\v3client\TBA-API\v3client\model;
+namespace TBAAPI\v3client\TBAAPI\v3client\model;
 
 use \ArrayAccess;
-use \TBA-API\v3client\ObjectSerializer;
+use \TBAAPI\v3client\ObjectSerializer;
 
 /**
  * EventRanking Class Doc Comment
  *
  * @category Class
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -57,9 +57,9 @@ class EventRanking implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $openAPITypes = [
-        'rankings' => '\TBA-API\v3client\TBA-API\v3client\model\EventRankingRankings[]',
-        'extra_stats_info' => '\TBA-API\v3client\TBA-API\v3client\model\EventRankingExtraStatsInfo[]',
-        'sort_order_info' => '\TBA-API\v3client\TBA-API\v3client\model\EventRankingSortOrderInfo[]'
+        'rankings' => '\TBAAPI\v3client\TBAAPI\v3client\model\EventRankingRankings[]',
+        'extra_stats_info' => '\TBAAPI\v3client\TBAAPI\v3client\model\EventRankingExtraStatsInfo[]',
+        'sort_order_info' => '\TBAAPI\v3client\TBAAPI\v3client\model\EventRankingSortOrderInfo[]'
     ];
 
     /**
@@ -225,7 +225,7 @@ class EventRanking implements ModelInterface, ArrayAccess
     /**
      * Gets rankings
      *
-     * @return \TBA-API\v3client\TBA-API\v3client\model\EventRankingRankings[]
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\EventRankingRankings[]
      */
     public function getRankings()
     {
@@ -235,7 +235,7 @@ class EventRanking implements ModelInterface, ArrayAccess
     /**
      * Sets rankings
      *
-     * @param \TBA-API\v3client\TBA-API\v3client\model\EventRankingRankings[] $rankings List of rankings at the event.
+     * @param \TBAAPI\v3client\TBAAPI\v3client\model\EventRankingRankings[] $rankings List of rankings at the event.
      *
      * @return $this
      */
@@ -249,7 +249,7 @@ class EventRanking implements ModelInterface, ArrayAccess
     /**
      * Gets extra_stats_info
      *
-     * @return \TBA-API\v3client\TBA-API\v3client\model\EventRankingExtraStatsInfo[]|null
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\EventRankingExtraStatsInfo[]|null
      */
     public function getExtraStatsInfo()
     {
@@ -259,7 +259,7 @@ class EventRanking implements ModelInterface, ArrayAccess
     /**
      * Sets extra_stats_info
      *
-     * @param \TBA-API\v3client\TBA-API\v3client\model\EventRankingExtraStatsInfo[]|null $extra_stats_info List of special TBA-generated values provided in the `extra_stats` array for each item.
+     * @param \TBAAPI\v3client\TBAAPI\v3client\model\EventRankingExtraStatsInfo[]|null $extra_stats_info List of special TBA-generated values provided in the `extra_stats` array for each item.
      *
      * @return $this
      */
@@ -273,7 +273,7 @@ class EventRanking implements ModelInterface, ArrayAccess
     /**
      * Gets sort_order_info
      *
-     * @return \TBA-API\v3client\TBA-API\v3client\model\EventRankingSortOrderInfo[]
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\EventRankingSortOrderInfo[]
      */
     public function getSortOrderInfo()
     {
@@ -283,7 +283,7 @@ class EventRanking implements ModelInterface, ArrayAccess
     /**
      * Sets sort_order_info
      *
-     * @param \TBA-API\v3client\TBA-API\v3client\model\EventRankingSortOrderInfo[] $sort_order_info List of year-specific values provided in the `sort_orders` array for each team.
+     * @param \TBAAPI\v3client\TBAAPI\v3client\model\EventRankingSortOrderInfo[] $sort_order_info List of year-specific values provided in the `sort_orders` array for each team.
      *
      * @return $this
      */

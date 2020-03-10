@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace TBA-API\v3client\TBA-API\v3client\model;
+namespace TBAAPI\v3client\TBAAPI\v3client\model;
 
 use \ArrayAccess;
-use \TBA-API\v3client\ObjectSerializer;
+use \TBAAPI\v3client\ObjectSerializer;
 
 /**
  * EliminationAlliance Class Doc Comment
  *
  * @category Class
- * @package  TBA-API\v3client
+ * @package  TBAAPI\v3client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -58,10 +58,10 @@ class EliminationAlliance implements ModelInterface, ArrayAccess
       */
     protected static $openAPITypes = [
         'name' => 'string',
-        'backup' => '\TBA-API\v3client\TBA-API\v3client\model\EliminationAllianceBackup',
+        'backup' => '\TBAAPI\v3client\TBAAPI\v3client\model\EliminationAllianceBackup',
         'declines' => 'string[]',
         'picks' => 'string[]',
-        'status' => '\TBA-API\v3client\TBA-API\v3client\model\EliminationAllianceStatus'
+        'status' => '\TBAAPI\v3client\TBAAPI\v3client\model\EliminationAllianceStatus'
     ];
 
     /**
@@ -258,7 +258,7 @@ class EliminationAlliance implements ModelInterface, ArrayAccess
     /**
      * Gets backup
      *
-     * @return \TBA-API\v3client\TBA-API\v3client\model\EliminationAllianceBackup|null
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\EliminationAllianceBackup|null
      */
     public function getBackup()
     {
@@ -268,7 +268,7 @@ class EliminationAlliance implements ModelInterface, ArrayAccess
     /**
      * Sets backup
      *
-     * @param \TBA-API\v3client\TBA-API\v3client\model\EliminationAllianceBackup|null $backup backup
+     * @param \TBAAPI\v3client\TBAAPI\v3client\model\EliminationAllianceBackup|null $backup backup
      *
      * @return $this
      */
@@ -330,7 +330,7 @@ class EliminationAlliance implements ModelInterface, ArrayAccess
     /**
      * Gets status
      *
-     * @return \TBA-API\v3client\TBA-API\v3client\model\EliminationAllianceStatus|null
+     * @return \TBAAPI\v3client\TBAAPI\v3client\model\EliminationAllianceStatus|null
      */
     public function getStatus()
     {
@@ -340,7 +340,7 @@ class EliminationAlliance implements ModelInterface, ArrayAccess
     /**
      * Sets status
      *
-     * @param \TBA-API\v3client\TBA-API\v3client\model\EliminationAllianceStatus|null $status status
+     * @param \TBAAPI\v3client\TBAAPI\v3client\model\EliminationAllianceStatus|null $status status
      *
      * @return $this
      */
